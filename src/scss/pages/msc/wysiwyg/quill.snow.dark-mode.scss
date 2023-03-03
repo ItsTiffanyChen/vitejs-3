@@ -1,0 +1,23 @@
+.ql-snow.ql-snow--dark-mode{
+  &.ql-container {
+    background-color: #000;
+    color: #eee;
+  }
+
+
+  &.ql-toolbar{
+    background-color: #000;
+
+
+
+    *{
+      color: #eee;
+    }
+
+    .ql-stroke, .ql-fill {
+      stroke: #eee;
+    }
+  }
+
+}
+

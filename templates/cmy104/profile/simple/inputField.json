@@ -1,0 +1,146 @@
+{
+  "resume": {
+    "count": 7,
+    "name": {
+      "field": "履歷名稱",
+      "maxLength": 20,
+      "regex": "^[^`><;#@\\!\\”\\‘?~%*^\\${}=<>\\\\|‵＜＞；＃＠！“？～％＄＊︿｛｝＝＼]+$"
+    }
+  },
+  "info": {
+    "base": {
+      "birthYear": {
+        "field": "出生年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "maxLength": 4
+      },
+      "birthMonth": {
+        "field": "出生月份"
+      },
+      "birthDate": {
+        "field": "出生日"
+      },
+      "cellphone": {
+        "field": "手機號碼",
+        "regex": "^\\+?[0-9]*$",
+        "minLength": 10,
+        "maxLength": 15
+      },
+      "city": {
+        "field": "地區"
+      },
+      "street": {
+        "field": "地址",
+        "invalidRegex": "^\\d+$",
+        "maxLength": 102
+      },
+      "bio": {
+        "field": "個人簡介",
+        "maxLength": 200
+      },
+      "traits": {
+        "field": "個人特色",
+        "count": 6,
+        "regex": "^[^,]*$",
+        "maxLength": 20
+      },
+      "personalImageUrl": {
+        "field": "個人圖片"
+      },
+      "personalCoverUrl": {
+        "field": "個人背景"
+      }
+  },
+  "addOn": {
+      "driveCert": {
+        "field": "駕照",
+        "count": 3
+      },
+      "themeChoose": {
+        "selectedTheme": [],
+        "top": []
+      }
+    }
+  },
+  "education": {
+    "educations": {
+      "field": "學歷",
+      "count": 1,
+      "name": {
+        "field": "學校名稱",
+        "maxLength": 120
+      },
+      "departments": {
+        "field": "科系",
+        "count": 1,
+        "name": {
+          "field": "科系名稱",
+          "maxLength": 100
+        }
+      },
+      "highest": {
+        "field": "學歷"
+      },
+      "status": {
+        "field": "就學狀態"
+      },
+      "inSchoolStatus": {
+        "field": "就讀狀態"
+      }
+    }
+  },
+  "experience": {
+    "experiences": {
+      "field": "工作經歷",
+      "count": 20,
+      "companyName": {
+        "field": "公司名",
+        "maxLength": 120
+      },
+      "jobName": {
+        "field": "職稱",
+        "maxLength": 120
+      },
+      "duration": {
+        "startYear": {
+          "field": "到職年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": "2021",
+          "maxLength": 4
+        },
+        "endYear": {
+          "field": "任職結束年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": "2021",
+          "maxLength": 4
+        }
+      }
+    }
+  },
+  "jobCondition": {
+    "jobTimeType": {
+      "field": "希望工作性質"
+    },
+    "jobTimePeriod": {
+      "field": "上班時段"
+    },
+    "otherTimePeriod": {
+      "field": "其他上班時段",
+      "maxLength": 60
+    },
+    "workShift": {
+      "field": "是否配合輪班"
+    },
+    "preferJobType": {
+      "field": "希望職類",
+      "count": 5
+    },
+    "preferArea": {
+      "field": "希望地點",
+      "count": 6
+    }
+  }
+}

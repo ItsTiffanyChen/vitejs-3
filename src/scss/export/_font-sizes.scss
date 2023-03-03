@@ -1,0 +1,13 @@
+/* stylelint-disable */
+@import "~node_modules/bootstrap/scss/functions";
+@import "~node_modules/bootstrap/scss/variables";
+@import "~scss/bootstrap/variables";
+// @import "../../bootstrap/bootstrap";
+
+:export {
+  @each $font-size, $value in $font-sizes {
+    #{$font-size}: $value;
+  }
+}
+
+

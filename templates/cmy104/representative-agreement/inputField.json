@@ -1,0 +1,50 @@
+{
+  "form": {
+    "agents": {
+      "field": "法定代理人"
+    },
+    "items": {
+      "type": {
+        "field": "身分"
+      },
+      "name": {
+        "field": "姓名",
+        "maxLength": 60
+      },
+      "tel": {
+        "field": "聯絡電話",
+        "maxLength": 20,
+        "minLength": 8
+      },
+      "national": {
+        "field": "國民"
+      },
+      "local": {
+        "number": {
+          "field": "身分證號碼",
+          "regex": "^[a-zA-Z]{1}[12]{1}[\\d]{8}$"
+        },
+        "year": {
+          "field": "發證年"
+        },
+        "month": {
+          "field": "發證月"
+        },
+        "date": {
+          "field": "發證日"
+        },
+        "location": {
+          "field": "發證地點"
+        },
+        "type": {
+          "field": "領補換類別"
+        }
+      },
+      "foreign": {
+        "attach": {
+          "field": "身分證件照"
+        }
+      }
+    }
+  }
+}

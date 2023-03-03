@@ -1,0 +1,68 @@
+<svg width="302" height="226" viewBox="0 0 302 226" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="a" x="0" y="0" width="302" height="226" rx="4"/>
+        <rect id="c" x="0" y="0" width="302" height="226" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <rect stroke="#FFF" x=".5" y=".5" width="301" height="225" rx="4"/>
+        <g mask="url(#b)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <rect stroke="#FFF" x=".5" y=".5" width="301" height="225" rx="4"/>
+            <g mask="url(#d)">
+                <g transform="translate(-132 -27)">
+                    <path fill="#FFEEDF" d="M127 24h311v231H127z"/>
+                    <path fill="#FFF" opacity=".38" d="M264 133h169v132H264z"/>
+                    <path fill="#FFF" opacity=".334" d="M132 0h132v132H132z"/>
+                    <g transform="translate(0 1)">
+                        <circle fill="#FFF" opacity=".413" cx="132" cy="132" r="132"/>
+                        <path fill-opacity=".5" fill="#FFD6B2" d="M132 0h132v132H132z"/>
+                        <path d="M264 132C264 59.098 204.902 0 132 0S0 59.098 0 132" fill="#FFF" opacity=".803"/>
+                        <circle fill="#FF7800" cx="318" cy="95" r="5"/>
+                    </g>
+                    <g stroke-linecap="round" stroke="#FF7800">
+                        <path d="M202 57c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M202 63c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M202 69c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4"/>
+                    </g>
+                    <path fill="#FFC31B" d="m400.369 78.928-19.647 5.745 3.122-20.267z"/>
+                    <g opacity=".6" transform="translate(152 167)" fill="#FF7800">
+                        <circle cx="2" cy="2" r="2"/>
+                        <circle cx="14" cy="2" r="2"/>
+                        <circle cx="26" cy="2" r="2"/>
+                        <circle cx="2" cy="14" r="2"/>
+                        <circle cx="14" cy="14" r="2"/>
+                        <circle cx="26" cy="14" r="2"/>
+                        <circle cx="2" cy="26" r="2"/>
+                        <circle cx="14" cy="26" r="2"/>
+                        <circle cx="26" cy="26" r="2"/>
+                        <circle cx="2" cy="38" r="2"/>
+                        <circle cx="14" cy="38" r="2"/>
+                        <circle cx="26" cy="38" r="2"/>
+                        <circle cx="2" cy="50" r="2"/>
+                        <circle cx="14" cy="50" r="2"/>
+                        <circle cx="26" cy="50" r="2"/>
+                        <circle cx="38" cy="2" r="2"/>
+                        <circle cx="38" cy="14" r="2"/>
+                        <circle cx="38" cy="26" r="2"/>
+                        <circle cx="38" cy="38" r="2"/>
+                        <circle cx="38" cy="50" r="2"/>
+                        <circle cx="50" cy="2" r="2"/>
+                        <circle cx="50" cy="14" r="2"/>
+                        <circle cx="50" cy="26" r="2"/>
+                        <circle cx="50" cy="38" r="2"/>
+                        <circle cx="50" cy="50" r="2"/>
+                        <circle cx="62" cy="2" r="2"/>
+                        <circle cx="62" cy="14" r="2"/>
+                        <circle cx="62" cy="26" r="2"/>
+                        <circle cx="62" cy="38" r="2"/>
+                        <circle cx="62" cy="50" r="2"/>
+                    </g>
+                    <circle fill="#FFD6B2" cx="357" cy="162" r="10"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

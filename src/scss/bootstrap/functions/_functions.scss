@@ -1,0 +1,53 @@
+@function parseFloat($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function parseInt($num) {
+  @return round($num / ($num * 0 + 1));
+}
+
+/* ========================================================================
+   Convert px to rem
+ ========================================================================== */
+
+/*
+ * @example scss
+ * $font-size-in-rems: px2rem(16px);
+ * p { font-size: px2rem(16px); }
+ */
+@function px2rem($px, $base: $font-size-base) {
+  @if unitless($px) {
+    @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels.";
+    @return px2rem($px * 1px, $base);
+  }
+  @else if unit($px) == rem {
+    @return $px;
+  }
+  @else if unit($px) == em {
+    @return parseFloat($px) * 1rem;
+  }
+  @return ($px / $base) * 1rem;
+}
+
+/* ========================================================================
+   Convert rem to px
+ ========================================================================== */
+@function rem2px($rem, $base: $font-size-base) {
+  @if unitless($rem) {
+    @warn "Assuming #{$rem} to be in rem, attempting to convert it into rem.";
+    @return rem2px($rem * 1rem, $base);
+  }
+  @else if unit($rem) == px {
+    @return $rem;
+  }
+  @return (parseFloat($rem) * parseFloat($base)) * 1px;
+}
+
+/* ========================================================================
+   button
+ ========================================================================== */
+@mixin button-size($font-size, $line-height, $border-radius) {
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}

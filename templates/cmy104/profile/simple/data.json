@@ -1,0 +1,155 @@
+{
+  "formData": {
+    "resume": {
+      "name": "第二份履歷表",
+      "seniorManagerResume": false,
+      "publicStatus": {
+          "text": "已開放",
+          "value": 2
+      }
+    },
+    "progress": 45,
+    "ACData": {
+      "info": {
+        "name": "CLEON",
+        "email": "2000leon@yahoo.com",
+        "gender": {
+          "text": "男",
+          "value": 1
+        },
+        "birthYear": "1986",
+        "birthMonth": {
+          "text": "11月",
+          "value": "11"
+        },
+        "birthDate": {
+          "text": "12",
+          "value": "12"
+        },
+        "age": "30",
+        "cellphone": "",
+        "city": [
+          {
+            "des": "台北市中正區",
+            "no": 6001001001
+          }
+        ],
+        "street": "104路104號104號"
+      }
+    },
+    "info": {
+      "formData": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": 1,
+            "name": "InfoThemeClassic"
+          },
+          "top": []
+        },
+        "info": {
+          "cellphone": "0910101000",
+          "city": [
+            {
+              "des": "台北市中正區",
+              "no": 6001001001
+            }
+          ],
+          "street": "104路104號104號",
+          "bio": "",
+          "trait": [
+            {
+              "text": "git",
+              "value": "0"
+            }
+          ],
+          "personalImageUrl": "https://cdn.104-dev.com.tw/static/images/cprofile/progressBar/man@3x.png",
+          "personalCoverUrl": "https://cdn.104-dev.com.tw/static/images/cprofile/progressBar/man@3x.png"
+        },
+        "addOn": {
+          "driveCert": [
+            {
+              "text": "輕型機車駕照",
+              "value": 1
+            }
+          ]
+        }
+      }
+    },
+    "education": {
+      "formData": {
+        "educations": [
+          {
+            "name": "1FV8GMzyLcfSrq",
+            "departments": [
+              {
+                "name": "1FV8GMzyLcfSrq",
+                "type": [
+                  {
+                    "no": 3001004000,
+                    "des": "學前教育相關"
+                  }
+                ]
+              }
+            ],
+            "highest": {
+              "text": "三專",
+              "value": 7
+            },
+            "status": {
+              "text": "畢業",
+              "value": 1
+            }
+          }
+        ]
+      }
+    },
+    "experience": {
+      "formData": {
+        "experiences": [
+          {
+            "companyName": "104科技",
+            "jobName": "工程師",
+            "duration": {
+              "startYear": "2000",
+              "startMonth": {
+                "text": "8",
+                "value": 8
+              },
+              "endYear": "2012",
+              "endMonth": {
+                "text": "8",
+                "value": 8
+              }
+            },
+            "stillWork": false
+          }
+        ]
+      }
+    },
+    "jobCondition": {
+      "formData": {
+        "jobCondition": {
+          "jobTimeType": [
+            {
+              "text": "全職工作",
+              "value": 1
+            }
+          ],
+          "jobTimePeriod": [
+            {
+              "text": "晚班",
+              "value": 2
+            }
+          ],
+          "otherTimePeriod": "",
+          "workShift": 0,
+          "preferJobType": [{"no": 2001002001, "des": "人力資源主管"}]
+        }
+      }
+    },
+    "under18": {
+      "formData": {}
+    }
+  }
+}

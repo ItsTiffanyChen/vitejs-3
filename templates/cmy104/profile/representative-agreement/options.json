@@ -1,0 +1,156 @@
+{
+  "optionsAgents": [
+    {
+      "text": "2位",
+      "value": 1
+    },
+    {
+      "text": "1位(父母離異、死亡...等事由)",
+      "value": 2
+    }
+  ],
+  "optionsType": [
+    {
+      "text": "父母",
+      "value": 1
+    },
+    {
+      "text": "監護人",
+      "value": 2
+    }
+  ],
+  "optionsNational": [
+    {
+      "text": "本國國民",
+      "value": 1
+    },
+    {
+      "text": "外籍人士",
+      "value": 2
+    }
+  ],
+  "optionsLocalLocation": [
+    {
+      "text": "北縣​",
+      "value": "10001"
+    },
+    {
+      "text": "宜縣",
+      "value": "10002"
+    },
+    {
+      "text": "桃縣",
+      "value": "10003"
+    },
+    {
+      "text": "竹縣",
+      "value": "10004"
+    },
+    {
+      "text": "苗縣",
+      "value": "10005"
+    },
+    {
+      "text": "中縣",
+      "value": "10006"
+    },
+    {
+      "text": "彰縣",
+      "value": "10007"
+    },
+    {
+      "text": "投縣",
+      "value": "10008"
+    },
+    {
+      "text": "雲縣",
+      "value": "10009"
+    },
+    {
+      "text": "嘉縣",
+      "value": "10010"
+    },
+    {
+      "text": "南縣",
+      "value": "10011"
+    },
+    {
+      "text": "高縣",
+      "value": "10012"
+    },
+    {
+      "text": "屏縣",
+      "value": "10013"
+    },
+    {
+      "text": "東縣",
+      "value": "10014"
+    },
+    {
+      "text": "花縣",
+      "value": "10015"
+    },
+    {
+      "text": "澎縣",
+      "value": "10016"
+    },
+    {
+      "text": "基市",
+      "value": "10017"
+    },
+    {
+      "text": "竹市",
+      "value": "10018"
+    },
+    {
+      "text": "嘉市",
+      "value": "10020"
+    },
+    {
+      "text": "連江",
+      "value": "09007"
+    },
+    {
+      "text": "金門",
+      "value": "09020"
+    },
+    {
+      "text": "北市",
+      "value": "63000"
+    },
+    {
+      "text": "高市",
+      "value": "64000"
+    },
+    {
+      "text": "新北市",
+      "value": "65000"
+    },
+    {
+      "text": "中市",
+      "value": "66000"
+    },
+    {
+      "text": "南市",
+      "value": "67000"
+    },
+    {
+      "text": "桃市",
+      "value": "68000"
+    }
+  ],
+  "optionsLocalType": [
+    {
+      "text": "初發",
+      "value": 1
+    },
+    {
+      "text": "補發",
+      "value": 2
+    },
+    {
+      "text": "換發",
+      "value": 3
+    }
+  ]
+}

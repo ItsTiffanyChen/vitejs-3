@@ -1,0 +1,59 @@
+// 思源黑
+// @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap&subset=chinese-traditional');
+// 微軟正黑粗體修正檔
+@import "~scss/utility/ms-jhenghei-bold";
+
+// before custom bootstrap.
+@import "~node_modules/bootstrap/scss/functions";
+@import "~node_modules/bootstrap/scss/variables";
+// custom bootstrap variables
+@import "~scss/bootstrap/variables";
+@import "~scss/utility/variables";
+// custom include bootstrap
+@import "~scss/bootstrap/bootstrap";
+
+// rewrite start
+// @import "~scss/bootstrap/functions";
+//  @import "~scss/bootstrap/variables";
+//  @import "~scss/bootstrap/mixins";
+//  @import "~scss/bootstrap/root";
+ @import "~scss/bootstrap/reboot";
+ @import "~scss/bootstrap/type";
+//  @import "~scss/bootstrap/images";
+//  @import "~scss/bootstrap/code";
+ @import "~scss/bootstrap/grid";
+//  @import "~scss/bootstrap/tables";
+ @import "~scss/bootstrap/forms";
+ @import "~scss/bootstrap/buttons";
+//  @import "~scss/bootstrap/transitions";
+//  @import "~scss/bootstrap/dropdown";
+//  @import "~scss/bootstrap/button-group";
+ @import "~scss/bootstrap/input-group";
+//  @import "~scss/bootstrap/custom-forms";
+//  @import "~scss/bootstrap/nav";
+//  @import "~scss/bootstrap/navbar";
+//  @import "~scss/bootstrap/card";
+//  @import "~scss/bootstrap/breadcrumb";
+//  @import "~scss/bootstrap/pagination";
+//  @import "~scss/bootstrap/badge";
+//  @import "~scss/bootstrap/jumbotron";
+//  @import "~scss/bootstrap/alert";
+//  @import "~scss/bootstrap/progress";
+//  @import "~scss/bootstrap/media";
+//  @import "~scss/bootstrap/list-group";
+//  @import "~scss/bootstrap/close";
+//  @import "~scss/bootstrap/toasts";
+//  @import "~scss/bootstrap/modal";
+//  @import "~scss/bootstrap/tooltip";
+//  @import "~scss/bootstrap/popover";
+//  @import "~scss/bootstrap/carousel";
+//  @import "~scss/bootstrap/spinners";
+ @import "~scss/bootstrap/utilities";
+//  @import "~scss/bootstrap/print";
+// @import "~scss/utility/mixins/icon";
+// @import "~scss/pages/cmy104/app";
+@import "~scss/utility/link";
+// @import "~scss/utility/animate";
+
+// component
+@import "~scss/components/shared/form/Cinput/CSwitch";

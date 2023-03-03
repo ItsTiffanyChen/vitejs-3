@@ -1,0 +1,33 @@
+@mixin my104-favor-icon-active-setting {
+  .jb_icon_favor_filled {
+    display: none;
+  }
+
+  &.active {
+    .jb_icon_favor_filled {
+      display: inline-block;
+    }
+
+    .jb_icon_favor_line {
+      display: none;
+    }
+  }
+}
+
+
+@mixin my104-track-icon-active-setting {
+  .jb_icon_notification_filled {
+    display: none;
+  }
+
+  &.active {
+    .jb_icon_notification_filled {
+      display: inline-block;
+    }
+
+    .jb_icon_notification_line {
+      display: none;
+    }
+  }
+
+}

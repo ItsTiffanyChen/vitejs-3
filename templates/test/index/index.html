@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("templates/include/head/utility.html") %>
+    <title><%- title["test-index"] %></title>
+    <%- include("templates/include/head/category-picker.html") %>
+    <%- include("templates/include/head/designer-icons.html") %>
+    <%- include("templates/include/head/global-black-bar.html") %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script
+      type="text/javascript"
+      src="<%= VUE_APP_ADSMART_COMPONENT %>js/channel.js"
+    ></script>
+    <script type="module" src="/src/pages/test/index/index.js"></script>
+  </body>
+</html>

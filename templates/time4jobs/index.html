@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <%= _.template(require("html-loader!../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/time4jobs/_meta.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/category/jobcat.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet" />
+      <% } %>
+    <% } %>
+    <!-- Hotjar Tracking Code for <%= VUE_APP_TIME4JOBS_URL %> -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1342751,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NTGHHLR');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <%= _.template(require("html-loader!../../templates/include/html/noscript.html"))() %>
+    <%= _.template(require("html-loader!../../templates/include/html/global-black-bar.html"))() %>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTGHHLR"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="app"></div>
+    <%= _.template(require("html-loader!../../templates/include/head/global-black-bar.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/elog.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/vue.html"))(htmlWebpackPlugin.options.envs) %>
+    <!-- built files will be auto injected -->
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+        <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+      <% } %>
+    <% } %>
+    <%= _.template(require("html-loader!../../templates/include/head/category-picker.html"))(htmlWebpackPlugin.options.envs) %>
+  </body>
+</html>

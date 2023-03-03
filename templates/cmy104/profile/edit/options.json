@@ -1,0 +1,1336 @@
+{
+  "optionsAttachFileType": [
+    {
+      "text": "檔案",
+      "value": 1
+    },
+    {
+      "text": "連結",
+      "value": 2
+    }
+  ],
+  "optionsCert": [
+    {
+      "text": "英文",
+      "value": 1,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001001005,
+          "text": "TOEIC"
+        },
+        {
+          "value": 4001001010,
+          "text": "TOEIC Bridge"
+        },
+        {
+          "value": 4001001011,
+          "text": "GEPT初級"
+        },
+        {
+          "value": 4001001012,
+          "text": "GEPT中級"
+        },
+        {
+          "value": 4001001013,
+          "text": "GEPT中高級"
+        },
+        {
+          "value": 4001001014,
+          "text": "GEPT高級"
+        },
+        {
+          "value": 4001001015,
+          "text": "GEPT優級"
+        },
+        {
+          "value": 4001001004,
+          "text": "IELTS"
+        },
+        {
+          "value": 4001001002,
+          "text": "TOEFL"
+        },
+        {
+          "value": 4001001017,
+          "text": "FLPT(English)"
+        },
+        {
+          "value": 4001001003,
+          "text": "GMAT"
+        },
+        {
+          "value": 4001001001,
+          "text": "GRE"
+        },
+        {
+          "value": 4001001008,
+          "text": "TESL"
+        },
+        {
+          "value": 4001001007,
+          "text": "TESOL"
+        },
+        {
+          "value": 4001001016,
+          "text": "TOPEC"
+        },
+        {
+          "value": 4001001018,
+          "text": "BULATS(劍橋博思國際職場英檢)"
+        },
+        {
+          "value": 4001001019,
+          "text": "Cambridge English Exams(劍橋國際英語認證)"
+        },
+        {
+          "value": 4001001020,
+          "text": "TKT(劍橋英語教師認證)"
+        },
+        {
+          "value": 4001001021,
+          "text": "BEC中級(劍橋商務英語認證)"
+        },
+        {
+          "value": 4001001022,
+          "text": "BEC中高級(劍橋商務英語認證)"
+        },
+        {
+          "value": 4001001023,
+          "text": "BEC高級(劍橋商務英語認證)"
+        },
+        {
+          "value": 4001001024,
+          "text": "Anglia高級英語測驗(安吉利國際英語評鑑)"
+        },
+        {
+          "value": 4001001025,
+          "text": "Anglia商業英文(安吉利國際英語評鑑)"
+        },
+        {
+          "value": 4001001026,
+          "text": "CITE國際教師英語認證(安吉利國際英語評鑑)"
+        },
+        {
+          "value": 4001001027,
+          "text": "TOEIC Speaking Test"
+        },
+        {
+          "value": 4001001028,
+          "text": "TOEIC Speaking and Writing TEST"
+        },
+        {
+          "value": 4001001029,
+          "text": "GET"
+        },
+        {
+          "value": 4001001030,
+          "text": "NETPAW入門級"
+        },
+        {
+          "value": 4001001031,
+          "text": "NETPAW基礎級"
+        },
+        {
+          "value": 4001001032,
+          "text": "NETPAW初級"
+        },
+        {
+          "value": 4001001033,
+          "text": "NETPAW中級"
+        },
+        {
+          "value": 4001001034,
+          "text": "NETPAW中高級"
+        },
+        {
+          "value": 4001001035,
+          "text": "NETPAW高級"
+        },
+        {
+          "value": 4001001036,
+          "text": "NETPAW專業級"
+        },
+        {
+          "value": 4001001037,
+          "text": "G-TELP Level 1"
+        },
+        {
+          "value": 4001001038,
+          "text": "G-TELP Level 2"
+        },
+        {
+          "value": 4001001039,
+          "text": "G-TELP Level 3"
+        },
+        {
+          "value": 4001001040,
+          "text": "G-TELP Level 4"
+        },
+        {
+          "value": 4001001041,
+          "text": "G-TELP Level 5"
+        },
+        {
+          "value": 4001001042,
+          "text": "PVQC專業英文詞彙能力國際認證"
+        },
+        {
+          "value": 4001001043,
+          "text": "生活英語認證"
+        },
+        {
+          "value": 4001001044,
+          "text": "CELT-P(兒童英語教學認證)"
+        },
+        {
+          "value": 4001001045,
+          "text": "CELT-S(中學英語教學認證)"
+        },
+        {
+          "value": 4001001046,
+          "text": "PTE Academic"
+        },
+        {
+          "value": 4001001047,
+          "text": "明逸通用英語能力認證",
+          "grade": false
+        }
+      ]
+    },
+    {
+      "text": "日文",
+      "value": 2,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001002002,
+          "text": "JLPT N1"
+        },
+        {
+          "value": 4001002003,
+          "text": "JLPT N2"
+        },
+        {
+          "value": 4001002004,
+          "text": "JLPT N3"
+        },
+        {
+          "value": 4001002005,
+          "text": "JLPT N4"
+        },
+        {
+          "value": 4001002001,
+          "text": "EJU (日本留學試驗)"
+        },
+        {
+          "value": 4001002006,
+          "text": "FLPT (日語)"
+        },
+        {
+          "value": 4001002007,
+          "text": "電腦P檢"
+        },
+        {
+          "value": 4001002008,
+          "text": "J-TEST實用日語檢定"
+        },
+        {
+          "value": 4001002009,
+          "text": "JLPT N5"
+        },
+        {
+          "value": 4001002010,
+          "text": "BJT商務日語能力",
+          "grade": true
+        }
+      ]
+    },
+    {
+      "text": "法文",
+      "value": 3,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001003002,
+          "text": "DELF (法語鑑定文憑)"
+        },
+        {
+          "value": 4001003005,
+          "text": "FLPT (法語)",
+          "grade": true
+        }
+      ]
+    },
+    {
+      "text": "德文",
+      "value": 4,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001003004,
+          "text": "FLPT (德語)"
+        },
+        {
+          "value": 4001003003,
+          "text": "ZDaF (德語初級考試)"
+        },
+        {
+          "value": 4001003007,
+          "text": "TestDaf(德國大學入學德語鑑定考試)",
+          "grade": false
+        }
+      ]
+    },
+    {
+      "text": "西班牙文",
+      "value": 5,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001003001,
+          "text": "DELE (西班牙語文能力測驗)"
+        },
+        {
+          "value": 4001003006,
+          "text": "FLPT (西語)",
+          "grade": true
+        }
+      ]
+    },
+    {
+      "text": "韓文",
+      "value": 13,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001003008,
+          "text": "TOPIK (韓語)",
+          "grade": false
+        }
+      ]
+    },
+    {
+      "text": "中文",
+      "value": 18,
+      "n": [
+        {
+          "value": null,
+          "text": "　"
+        },
+        {
+          "value": 4001005001,
+          "text": "CWT全民中文能力檢定-基礎等"
+        },
+        {
+          "value": 4001005002,
+          "text": "CWT全民中文能力檢定-初等"
+        },
+        {
+          "value": 4001005003,
+          "text": "CWT全民中文能力檢定-中等"
+        },
+        {
+          "value": 4001005004,
+          "text": "CWT全民中文能力檢定-中高等"
+        },
+        {
+          "value": 4001005005,
+          "text": "CWT全民中文能力檢定-高等"
+        },
+        {
+          "value": 4001005006,
+          "text": "CWT全民中文能力檢定-優等"
+        },
+        {
+          "value": 4001005007,
+          "text": "華語文能力測驗-聽讀入門基礎級"
+        },
+        {
+          "value": 4001005008,
+          "text": "華語文能力測驗-聽讀進階高階級"
+        },
+        {
+          "value": 4001005009,
+          "text": "華語文能力測驗-聽讀流利精通級"
+        },
+        {
+          "value": 4001005010,
+          "text": "華語文能力測驗-口語入門基礎級"
+        },
+        {
+          "value": 4001005011,
+          "text": "華語文能力測驗-口語進階高階級"
+        },
+        {
+          "value": 4001005012,
+          "text": "華語文能力測驗-寫作入門基礎級"
+        },
+        {
+          "value": 4001005013,
+          "text": "華語文能力測驗-寫作進階高階級"
+        },
+        {
+          "value": 4001005014,
+          "text": "LCT中文聽力理解檢定"
+        },
+        {
+          "value": 4001004002,
+          "text": "TCYL少兒漢語教師資格"
+        },
+        {
+          "value": 4001004003,
+          "text": "TCBP國際商務漢語教師資格",
+          "grade": false
+        }
+      ]
+    }
+  ],
+  "optionsCompanyScale": [
+    {
+      "text": "　",
+      "value": null
+    },
+    {
+      "text": "1~30人",
+      "value": 1
+    },
+    {
+      "text": "30~100人",
+      "value": 2
+    },
+    {
+      "text": "100~500人",
+      "value": 3
+    },
+    {
+      "text": "500人以上",
+      "value": 4
+    }
+  ],
+  "optionsCustomTheme": [
+    {
+      "text": "經典風格",
+      "value": 1,
+      "name": "CustomThemeClassic"
+    },
+    {
+      "text": "大型橫幅",
+      "value": 2,
+      "name": "CustomThemeBanner"
+    },
+    {
+      "text": "純文字",
+      "value": 3,
+      "name": "CustomThemeText"
+    }
+  ],
+  "optionsDisLevel": [
+    {
+      "text": "　",
+      "value": null
+    },
+    {
+      "text": "輕度",
+      "value": 1
+    },
+    {
+      "text": "中度",
+      "value": 2
+    },
+    {
+      "text": "重度",
+      "value": 4
+    },
+    {
+      "text": "極重度",
+      "value": 8
+    }
+  ],
+  "optionsDisManual": [
+    {
+      "text": "無",
+      "value": 0
+    },
+    {
+      "text": "有",
+      "value": 1
+    }
+  ],
+  "optionsDisTool": [
+    {
+      "text": "輪椅",
+      "value": 1
+    },
+    {
+      "text": "特殊滑鼠設計",
+      "value": 2
+    },
+    {
+      "text": "金點1號",
+      "value": 3
+    },
+    {
+      "text": "其他",
+      "value": 4
+    }
+  ],
+  "optionsDisType": [
+    {
+      "text": "　",
+      "value": null
+    },
+    {
+      "text": "視覺障礙",
+      "value": 1
+    },
+    {
+      "text": "聽覺或平衡機能障礙",
+      "value": 2
+    },
+    {
+      "text": "自閉症",
+      "value": 3
+    },
+    {
+      "text": "慢性精神病",
+      "value": 4
+    },
+    {
+      "text": "肢體障礙(上肢)",
+      "value": 5
+    },
+    {
+      "text": "肢體障礙(下肢)",
+      "value": 6
+    },
+    {
+      "text": "肢體障礙(軀幹)",
+      "value": 7
+    },
+    {
+      "text": "聲音或語言機能障礙",
+      "value": 8
+    },
+    {
+      "text": "顏面損傷",
+      "value": 9
+    },
+    {
+      "text": "其他障礙",
+      "value": 10
+    }
+  ],
+  "optionsDriveCert": [
+    {
+      "text": "輕型機車駕照",
+      "value": 1
+    },
+    {
+      "text": "普通重型機車駕照",
+      "value": 2
+    },
+    {
+      "text": "大型重型機車駕照",
+      "value": 4
+    },
+    {
+      "text": "普通小型車駕照",
+      "value": 8
+    },
+    {
+      "text": "普通大貨車駕照",
+      "value": 16
+    },
+    {
+      "text": "普通大客車駕照",
+      "value": 32
+    },
+    {
+      "text": "普通聯結車駕照",
+      "value": 64
+    },
+    {
+      "text": "職業小型車駕照",
+      "value": 128
+    },
+    {
+      "text": "職業大貨車駕照",
+      "value": 256
+    },
+    {
+      "text": "職業大客車駕照",
+      "value": 512
+    },
+    {
+      "text": "職業聯結車駕照",
+      "value": 1024
+    }
+  ],
+  "optionsEducation": [
+    {
+      "text": "博士",
+      "value": 1
+    },
+    {
+      "text": "碩士",
+      "value": 2
+    },
+    {
+      "text": "大學",
+      "value": 3
+    },
+    {
+      "text": "四技",
+      "value": 4
+    },
+    {
+      "text": "二技",
+      "value": 5
+    },
+    {
+      "text": "二專",
+      "value": 6
+    },
+    {
+      "text": "三專",
+      "value": 7
+    },
+    {
+      "text": "五專",
+      "value": 8
+    },
+    {
+      "text": "高中",
+      "value": 9
+    },
+    {
+      "text": "高職",
+      "value": 10
+    },
+    {
+      "text": "國中(含)以下",
+      "value": 11
+    }
+  ],
+  "optionsEducationStatus": [
+    {
+      "text": "畢業",
+      "value": 1
+    },
+    {
+      "text": "肄業",
+      "value": 2
+    },
+    {
+      "text": "就學中",
+      "value": 3
+    }
+  ],
+  "optionsForeignType": [
+    {
+      "text": "英文",
+      "value": 1
+    },
+    {
+      "text": "日文",
+      "value": 2
+    },
+    {
+      "text": "法文",
+      "value": 3
+    },
+    {
+      "text": "德文",
+      "value": 4
+    },
+    {
+      "text": "西班牙文",
+      "value": 5
+    },
+    {
+      "text": "越文",
+      "value": 9
+    },
+    {
+      "text": "泰文",
+      "value": 10
+    },
+    {
+      "text": "馬來文",
+      "value": 11
+    },
+    {
+      "text": "印尼文",
+      "value": 12
+    },
+    {
+      "text": "韓文",
+      "value": 13
+    },
+    {
+      "text": "俄文",
+      "value": 14
+    },
+    {
+      "text": "義大利文",
+      "value": 15
+    },
+    {
+      "text": "葡萄牙文",
+      "value": 16
+    },
+    {
+      "text": "阿拉伯文",
+      "value": 17
+    },
+    {
+      "text": "中文",
+      "value": 18
+    },
+    {
+      "text": "菲律賓文",
+      "value": 19
+    },
+    {
+      "text": "其他外文",
+      "value": 49
+    }
+  ],
+  "optionsInfoTheme": [
+    {
+      "text": "經典風格",
+      "value": 1,
+      "name": "InfoThemeClassic"
+    },
+    {
+      "text": "極簡主義",
+      "value": 2,
+      "name": "InfoThemeSimple"
+    }
+  ],
+  "optionsInSchoolStatus": [
+    {
+      "text": "日間就讀中",
+      "value": 1
+    },
+    {
+      "text": "夜間就讀中",
+      "value": 2
+    },
+    {
+      "text": "假日就讀中",
+      "value": 3
+    }
+  ],
+  "optionsJobOnBoardDate": [
+    {
+      "text": "錄取後",
+      "value": "1"
+    },
+    {
+      "text": "自訂日期",
+      "value": "-1"
+    }
+  ],
+  "optionsJobSalariesOfYear": [
+    {
+      "text": "100萬以下",
+      "value": 0
+    },
+    {
+      "text": "100~125萬",
+      "value": 1
+    },
+    {
+      "text": "125~150萬",
+      "value": 2
+    },
+    {
+      "text": "150~200萬",
+      "value": 3
+    },
+    {
+      "text": "200~250萬",
+      "value": 4
+    },
+    {
+      "text": "250~300萬",
+      "value": 5
+    },
+    {
+      "text": "300萬以上",
+      "value": 6
+    }
+  ],
+  "optionsJobSalary": [
+    {
+      "text": "面議",
+      "value": 1
+    },
+    {
+      "text": "依公司規定",
+      "value": 2
+    },
+    {
+      "text": "論件計酬",
+      "value": 3
+    },
+    {
+      "text": "自訂薪資",
+      "value": 4
+    }
+  ],
+  "optionsJobSalaryPeriod": [
+    {
+      "text": "時薪",
+      "value": 4
+    },
+    {
+      "text": "月薪",
+      "value": 5
+    },
+    {
+      "text": "年薪",
+      "value": 6
+    }
+  ],
+  "optionsJobStatus": [
+    {
+      "text": "在職中",
+      "value": 1
+    },
+    {
+      "text": "待業中",
+      "value": 2
+    }
+  ],
+  "optionsJobTimePeriod": [
+    {
+      "text": "日班",
+      "value": 1
+    },
+    {
+      "text": "晚班",
+      "value": 2
+    },
+    {
+      "text": "大夜班",
+      "value": 4
+    },
+    {
+      "text": "假日班",
+      "value": 8
+    }
+  ],
+  "optionsJobTimeType": [
+    {
+      "text": "全職工作",
+      "value": 1
+    },
+    {
+      "text": "兼職工作",
+      "value": 2
+    },
+    {
+      "text": "高階",
+      "value": 3
+    },
+    {
+      "text": "實習工作",
+      "value": 4
+    },
+    {
+      "text": "寒暑假工讀",
+      "value": 5
+    }
+  ],
+  "optionsJobType": [
+    {
+      "text": "全職",
+      "value": 1
+    },
+    {
+      "text": "兼職",
+      "value": 2
+    }
+  ],
+  "optionsJobWeekPeriod": [
+    {
+      "text": "隨時",
+      "value": 0
+    },
+    {
+      "text": "一週",
+      "value": 1
+    },
+    {
+      "text": "兩週",
+      "value": 2
+    },
+    {
+      "text": "三週",
+      "value": 3
+    },
+    {
+      "text": "一個月",
+      "value": 4
+    },
+    {
+      "text": "二個月",
+      "value": 5
+    },
+    {
+      "text": "三個月",
+      "value": 6
+    }
+  ],
+  "optionsJobWillType": [
+    {
+      "text": "尋找研發替代役工作",
+      "value": 1
+    }
+  ],
+  "optionsLanguageForeignLevel": [
+    {
+      "text": "不會",
+      "value": 1
+    },
+    {
+      "text": "略懂",
+      "value": 4
+    },
+    {
+      "text": "中等",
+      "value": 8
+    },
+    {
+      "text": "精通",
+      "value": 2
+    }
+  ],
+  "optionsLanguageLocalLevel": [
+    {
+      "text": "略懂",
+      "value": 4
+    },
+    {
+      "text": "中等",
+      "value": 8
+    },
+    {
+      "text": "精通",
+      "value": 2
+    }
+  ],
+  "optionsLanguageType": [
+    {
+      "text": "外文",
+      "value": 1
+    },
+    {
+      "text": "方言",
+      "value": 2
+    }
+  ],
+  "optionsLocalType": [
+    {
+      "text": "台語",
+      "value": 1
+    },
+    {
+      "text": "客語",
+      "value": 2
+    },
+    {
+      "text": "粵語",
+      "value": 3
+    },
+    {
+      "text": "上海語",
+      "value": 4
+    }
+  ],
+  "optionsManagement": [
+    {
+      "text": "　",
+      "value": null
+    },
+    {
+      "text": "4人以下",
+      "value": 1
+    },
+    {
+      "text": "5~8人",
+      "value": 2
+    },
+    {
+      "text": "9~12人",
+      "value": 3
+    },
+    {
+      "text": "13人以上",
+      "value": 4
+    }
+  ],
+  "optionsMarriageStatus": [
+    {
+      "text": "暫不提供",
+      "value": 0
+    },
+    {
+      "text": "未婚",
+      "value": 1
+    },
+    {
+      "text": "已婚",
+      "value": 2
+    }
+  ],
+  "optionsMilitary": [
+    {
+      "text": "　",
+      "value": null
+    },
+    {
+      "text": "役畢",
+      "value": 1
+    },
+    {
+      "text": "屆退",
+      "value": 2
+    },
+    {
+      "text": "未役",
+      "value": 3
+    },
+    {
+      "text": "待役",
+      "value": 4
+    },
+    {
+      "text": "免役",
+      "value": 5
+    }
+  ],
+  "optionsPersonalLink": [
+    {
+      "text": "個人網站",
+      "value": 1
+    },
+    {
+      "text": "Blogger",
+      "value": 2
+    },
+    {
+      "text": "Medium",
+      "value": 3
+    },
+    {
+      "text": "Facebook",
+      "value": 4
+    },
+    {
+      "text": "Instagram",
+      "value": 5
+    },
+    {
+      "text": "Youtube",
+      "value": 6
+    },
+    {
+      "text": "Github",
+      "value": 8
+    },
+    {
+      "text": "Stackoverflow",
+      "value": 9
+    },
+    {
+      "text": "Dribbble",
+      "value": 10
+    },
+    {
+      "text": "Behance",
+      "value": 11
+    }
+  ],
+  "optionsPublicStatus": [
+    {
+      "text": "未完成",
+      "value": 0
+    },
+    {
+      "text": "未開放",
+      "value": 1
+    },
+    {
+      "text": "已開放",
+      "value": 2
+    },
+    {
+      "text": "部分開放",
+      "value": 6
+    }
+  ],
+  "optionsRegion": [
+    {
+      "text": "台灣",
+      "value": 7001053000
+    },
+    {
+      "text": "國外",
+      "value": 2
+    }
+  ],
+  "optionsResumeType": [
+    {
+      "text": "一般履歷",
+      "value": 1
+    },
+    {
+      "text": "高階履歷",
+      "value": 3
+    }
+  ],
+  "optionsSex": [
+    {
+      "text": "女",
+      "value": 0
+    },
+    {
+      "text": "男",
+      "value": 1
+    }
+  ],
+  "optionsSkillTheme": [
+    {
+      "text": "列表式",
+      "value": 1,
+      "name": "SkillThemeList"
+    },
+    {
+      "text": "卡片式",
+      "value": 2,
+      "name": "SkillThemeCard"
+    }
+  ],
+  "optionsSpecialRole": [
+    {
+      "text": "外籍人士",
+      "value": 1
+    },
+    {
+      "text": "原住民",
+      "value": 2
+    },
+    {
+      "text": "二度就業",
+      "value": 3
+    },
+    {
+      "text": "身心障礙",
+      "value": 5
+    }
+  ],
+  "optionsTotalSeniority": [
+    {
+      "text": "無工作經驗",
+      "value": -1
+    },
+    {
+      "text": "1年(含)以下",
+      "value": 0
+    },
+    {
+      "text": "1~2年",
+      "value": 1
+    },
+    {
+      "text": "2~3年",
+      "value": 2
+    },
+    {
+      "text": "3~4年",
+      "value": 3
+    },
+    {
+      "text": "4~5年",
+      "value": 4
+    },
+    {
+      "text": "5~6年",
+      "value": 5
+    },
+    {
+      "text": "6~7年",
+      "value": 6
+    },
+    {
+      "text": "7~8年",
+      "value": 7
+    },
+    {
+      "text": "8~9年",
+      "value": 8
+    },
+    {
+      "text": "9~10年",
+      "value": 9
+    },
+    {
+      "text": "10~11年",
+      "value": 10
+    },
+    {
+      "text": "11~12年",
+      "value": 11
+    },
+    {
+      "text": "12~13年",
+      "value": 12
+    },
+    {
+      "text": "13~14年",
+      "value": 13
+    },
+    {
+      "text": "14~15年",
+      "value": 14
+    },
+    {
+      "text": "15~16年",
+      "value": 15
+    },
+    {
+      "text": "16~17年",
+      "value": 16
+    },
+    {
+      "text": "17~18年",
+      "value": 17
+    },
+    {
+      "text": "18~19年",
+      "value": 18
+    },
+    {
+      "text": "19~20年",
+      "value": 19
+    },
+    {
+      "text": "20~21年",
+      "value": 20
+    },
+    {
+      "text": "21~22年",
+      "value": 21
+    },
+    {
+      "text": "22~23年",
+      "value": 22
+    },
+    {
+      "text": "23~24年",
+      "value": 23
+    },
+    {
+      "text": "24~25年",
+      "value": 24
+    },
+    {
+      "text": "25年(含)以上",
+      "value": 25
+    }
+  ],
+  "optionsTrafficTool": [
+    {
+      "text": "輕型機車",
+      "value": 1
+    },
+    {
+      "text": "普通重型機車",
+      "value": 2
+    },
+    {
+      "text": "大型重型機車",
+      "value": 4
+    },
+    {
+      "text": "普通小型車",
+      "value": 8
+    },
+    {
+      "text": "普通大貨車",
+      "value": 16
+    },
+    {
+      "text": "普通大客車",
+      "value": 32
+    },
+    {
+      "text": "普通聯結車",
+      "value": 64
+    },
+    {
+      "text": "職業小型車",
+      "value": 128
+    },
+    {
+      "text": "職業大貨車",
+      "value": 256
+    },
+    {
+      "text": "職業大客車",
+      "value": 512
+    },
+    {
+      "text": "職業聯結車",
+      "value": 1024
+    }
+  ],
+  "optionsWageType": [
+    {
+      "text": "平均時薪",
+      "value": 1
+    },
+    {
+      "text": "平均日薪",
+      "value": 2
+    },
+    {
+      "text": "平均月薪",
+      "value": 3
+    },
+    {
+      "text": "論件計酬",
+      "value": 4
+    },
+    {
+      "text": "論績效計酬",
+      "value": 5
+    }
+  ],
+  "optionsRemoteWork": [
+    { "text": "對遠端工作有興趣", "value": 1 },
+    { "text": "只能遠端工作", "value": 2 }
+  ]
+}

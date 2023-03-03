@@ -1,0 +1,28 @@
+
+.jb-link{
+  &.jb-link-blue{
+    color: $blue;
+    @include hover {
+      color: $blue-light;
+      text-decoration: $link-hover-decoration;
+    }
+
+    &:focus,
+    &.focus {
+      text-decoration: $link-hover-decoration;
+      box-shadow: none;
+    }
+
+    &:disabled,
+    &.disabled {
+      color: $btn-link-disabled-color;
+      pointer-events: none;
+    }
+
+    &--visited{
+      &:visited{
+        color: $purple;
+      }
+    }
+  }
+}

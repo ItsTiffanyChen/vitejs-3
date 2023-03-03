@@ -1,0 +1,413 @@
+{
+  "optionsDriveCert": [
+    {
+      "text": "輕型機車駕照",
+      "value": 1
+    },
+    {
+      "text": "普通重型機車駕照",
+      "value": 2
+    },
+    {
+      "text": "大型重型機車駕照",
+      "value": 4
+    },
+    {
+      "text": "普通小型車駕照",
+      "value": 8
+    },
+    {
+      "text": "普通大貨車駕照",
+      "value": 16
+    },
+    {
+      "text": "普通大客車駕照",
+      "value": 32
+    },
+    {
+      "text": "普通聯結車駕照",
+      "value": 64
+    },
+    {
+      "text": "職業小型車駕照",
+      "value": 128
+    },
+    {
+      "text": "職業大貨車駕照",
+      "value": 256
+    },
+    {
+      "text": "職業大客車駕照",
+      "value": 512
+    },
+    {
+      "text": "職業聯結車駕照",
+      "value": 1024
+    }
+  ],
+  "optionsEducation": [
+    {
+      "text": "博士",
+      "value": 1
+    },
+    {
+      "text": "碩士",
+      "value": 2
+    },
+    {
+      "text": "大學",
+      "value": 3
+    },
+    {
+      "text": "四技",
+      "value": 4
+    },
+    {
+      "text": "二技",
+      "value": 5
+    },
+    {
+      "text": "二專",
+      "value": 6
+    },
+    {
+      "text": "三專",
+      "value": 7
+    },
+    {
+      "text": "五專",
+      "value": 8
+    },
+    {
+      "text": "高中",
+      "value": 9
+    },
+    {
+      "text": "高職",
+      "value": 10
+    },
+    {
+      "text": "國中(含)以下",
+      "value": 11
+    }
+  ],
+  "optionsEducationStatus": [
+    {
+      "text": "畢業",
+      "value": 1
+    },
+    {
+      "text": "肄業",
+      "value": 2
+    },
+    {
+      "text": "就學中",
+      "value": 3
+    }
+  ],
+  "optionsInfoTheme": [
+    {
+      "text": "經典風格",
+      "value": 1,
+      "name": "InfoThemeClassic"
+    },
+    {
+      "text": "極簡主義",
+      "value": 2,
+      "name": "InfoThemeSimple"
+    }
+  ],
+  "optionsInSchoolStatus": [
+    {
+      "text": "日間就讀中",
+      "value": 1
+    },
+    {
+      "text": "夜間就讀中",
+      "value": 2
+    },
+    {
+      "text": "假日就讀中",
+      "value": 3
+    }
+  ],
+  "optionsJobTimePeriod": [
+    {
+      "text": "日班",
+      "value": 1
+    },
+    {
+      "text": "晚班",
+      "value": 2
+    },
+    {
+      "text": "大夜班",
+      "value": 4
+    },
+    {
+      "text": "假日班",
+      "value": 8
+    }
+  ],
+  "optionsJobTimeType": [
+    {
+      "text": "全職工作",
+      "value": 1
+    },
+    {
+      "text": "兼職工作",
+      "value": 2
+    },
+    {
+      "text": "實習工作",
+      "value": 4
+    },
+    {
+      "text": "寒暑假工讀",
+      "value": 5
+    }
+  ],
+  "optionsJobType": [
+    {
+      "text": "全職",
+      "value": 1
+    },
+    {
+      "text": "兼職",
+      "value": 2
+    }
+  ],
+  "optionsJobWeekPeriod": [
+    {
+      "text": "隨時",
+      "value": 0
+    },
+    {
+      "text": "一週",
+      "value": 1
+    },
+    {
+      "text": "兩週",
+      "value": 2
+    },
+    {
+      "text": "三週",
+      "value": 3
+    },
+    {
+      "text": "一個月",
+      "value": 4
+    },
+    {
+      "text": "二個月",
+      "value": 5
+    },
+    {
+      "text": "三個月",
+      "value": 6
+    }
+  ],
+  "optionsJobWillType": [
+    {
+      "text": "尋找研發替代役工作",
+      "value": 1
+    }
+  ],
+  "optionsPublicStatus": [
+    {
+      "text": "未完成",
+      "value": 0
+    },
+    {
+      "text": "關閉中",
+      "value": 1
+    },
+    {
+      "text": "開放中",
+      "value": 2
+    },
+    {
+      "text": "舊狀態 90天未更新履歷自動關閉",
+      "value": 3
+    },
+    {
+      "text": "客服設定狀態 - hold",
+      "value": 4
+    },
+    {
+      "text": "客服設定狀態 - out",
+      "value": 5
+    },
+    {
+      "text": "部分開放",
+      "value": 6
+    }
+  ],
+  "optionsResumeType": [
+    {
+      "text": "一般履歷",
+      "value": 1
+    },
+    {
+      "text": "簡歷",
+      "value": 2
+    }
+  ],
+  "optionsInsertType": [
+    {
+      "text": "空白履歷",
+      "value": 1
+    }
+  ],
+  "optionsJobCat": [
+    [
+      {
+        "text": "IC佈局工程師",
+        "value": 2008001022,
+        "class": 0
+      },
+      {
+        "text": "半導體工程師",
+        "value": 2008001016,
+        "class": 0
+      },
+      {
+        "text": "數位IC設計工程師",
+        "value": 2008001015,
+        "class": 0
+      },
+      {
+        "text": "類比IC設計工程師",
+        "value": 2008001014,
+        "class": 0
+      },
+      {
+        "text": "半導體設備工程師",
+        "value": 2009002007,
+        "class": 0
+      },
+      {
+        "text": "半導體製程工程師",
+        "value": 2009002005,
+        "class": 0
+      }
+    ],
+    [
+      {
+        "text": "餐飲服務生",
+        "value": 2006001001,
+        "class": 1
+      },
+      {
+        "text": "餐廚助手",
+        "value": 2006001008,
+        "class": 1
+      },
+      {
+        "text": "調酒師／吧台人員",
+        "value": 2006001007,
+        "class": 1
+      },
+      {
+        "text": "飯店工作人員",
+        "value": 2006002003,
+        "class": 1
+      }
+    ],
+    [
+      {
+        "text": "門市／店員／專櫃人員",
+        "value": 2005002004,
+        "class": 2
+      },
+      {
+        "text": "售票／收銀人員",
+        "value": 2005002005,
+        "class": 2
+      },
+      {
+        "text": "行政助理",
+        "value": 2002001012,
+        "class": 2
+      },
+      {
+        "text": "工讀生",
+        "value": 2002001011,
+        "class": 2
+      }
+    ],
+    [
+      {
+        "text": "外務／快遞／送貨",
+        "value": 2011002003,
+        "class": 3
+      },
+      {
+        "text": "作業員／包裝員",
+        "value": 2010001002,
+        "class": 3
+      },
+      {
+        "text": "加油員",
+        "value": 2018002010,
+        "class": 3
+      }
+    ]
+  ],
+  "optionsSex": [
+    {
+      "text": "女",
+      "value": 0
+    },
+    {
+      "text": "男",
+      "value": 1
+    }
+  ],
+  "optionsTrafficTool": [
+    {
+      "text": "輕型機車",
+      "value": 1
+    },
+    {
+      "text": "普通重型機車",
+      "value": 2
+    },
+    {
+      "text": "大型重型機車",
+      "value": 4
+    },
+    {
+      "text": "普通小型車",
+      "value": 8
+    },
+    {
+      "text": "普通大貨車",
+      "value": 16
+    },
+    {
+      "text": "普通大客車",
+      "value": 32
+    },
+    {
+      "text": "普通聯結車",
+      "value": 64
+    },
+    {
+      "text": "職業小型車",
+      "value": 128
+    },
+    {
+      "text": "職業大貨車",
+      "value": 256
+    },
+    {
+      "text": "職業大客車",
+      "value": 512
+    },
+    {
+      "text": "職業聯結車",
+      "value": 1024
+    }
+  ]
+}

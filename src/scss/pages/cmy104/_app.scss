@@ -1,0 +1,5 @@
+#app{
+  background-color: $gray-300;
+  padding-bottom: 60px;
+  min-width: map-get($container-max-widths, 'md');
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301" height="169" viewBox="0 0 301 169">
+    <defs>
+        <rect id="a" width="301" height="169" y="7" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -7)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)">
+            <path fill="#FFEEDF" d="M0 7h301v169H0z"/>
+            <path fill="#FFF" d="M132 113h169v132H132z" opacity=".38"/>
+            <path fill="#FFF" d="M0-20h132v132H0z" opacity=".334"/>
+            <g transform="translate(-132 -19)">
+                <circle cx="132" cy="132" r="132" fill="#FFF" opacity=".413"/>
+                <path fill="#FFD6B2" fill-opacity=".5" d="M132 0h132v132H132z"/>
+                <path fill="#FFF" d="M264 132C264 59.098 204.902 0 132 0S0 59.098 0 132" opacity=".803"/>
+                <circle cx="318" cy="95" r="5" fill="#FF7800"/>
+            </g>
+        </g>
+        <g stroke="#FF7800" stroke-linecap="round" mask="url(#b)">
+            <path d="M70 37c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M70 43c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M70 49c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4"/>
+        </g>
+        <path fill="#FFC31B" d="M268.369 58.928l-19.647 5.745 3.122-20.267z"/>
+        <g fill="#FF7800" opacity=".6" transform="translate(20 100)">
+            <circle cx="2" cy="2" r="2"/>
+            <circle cx="14" cy="2" r="2"/>
+            <circle cx="26" cy="2" r="2"/>
+            <circle cx="2" cy="14" r="2"/>
+            <circle cx="14" cy="14" r="2"/>
+            <circle cx="26" cy="14" r="2"/>
+            <circle cx="2" cy="26" r="2"/>
+            <circle cx="14" cy="26" r="2"/>
+            <circle cx="26" cy="26" r="2"/>
+            <circle cx="2" cy="38" r="2"/>
+            <circle cx="14" cy="38" r="2"/>
+            <circle cx="26" cy="38" r="2"/>
+            <circle cx="2" cy="50" r="2"/>
+            <circle cx="14" cy="50" r="2"/>
+            <circle cx="26" cy="50" r="2"/>
+            <circle cx="38" cy="2" r="2"/>
+            <circle cx="38" cy="14" r="2"/>
+            <circle cx="38" cy="26" r="2"/>
+            <circle cx="38" cy="38" r="2"/>
+            <circle cx="38" cy="50" r="2"/>
+            <circle cx="50" cy="2" r="2"/>
+            <circle cx="50" cy="14" r="2"/>
+            <circle cx="50" cy="26" r="2"/>
+            <circle cx="50" cy="38" r="2"/>
+            <circle cx="50" cy="50" r="2"/>
+            <circle cx="62" cy="2" r="2"/>
+            <circle cx="62" cy="14" r="2"/>
+            <circle cx="62" cy="26" r="2"/>
+            <circle cx="62" cy="38" r="2"/>
+            <circle cx="62" cy="50" r="2"/>
+        </g>
+        <circle cx="225" cy="142" r="10" fill="#FFD6B2"/>
+    </g>
+</svg>

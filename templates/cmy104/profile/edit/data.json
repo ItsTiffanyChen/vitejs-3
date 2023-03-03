@@ -1,0 +1,363 @@
+{
+  "formData": {
+    "resume": {
+      "name": "第二份履歷表",
+      "seniorManagerResume": false,
+      "publicStatus": {
+          "text": "部分開放",
+          "value": 6
+      },
+      "resumeType": {
+        "text": "一般履歷",
+        "value": 1
+      }
+    },
+    "progress": 45,
+    "delAvatar": false,
+    "ACData": {
+      "info": {
+        "name": "CLEON",
+        "email": "2000leon@yahoo.com",
+        "gender": {
+          "text": "男",
+          "value": 1
+        },
+        "birthYear": "1986",
+        "birthMonth": {
+          "text": "11月",
+          "value": "11"
+        },
+        "birthDate": {
+          "text": "12",
+          "value": "12"
+        },
+        "age": "30",
+        "cellphone": "",
+        "city": [
+          {
+            "des": "台北市中正區",
+            "no": 6001001001
+          }
+        ],
+        "street": "104路104號104號"
+      }
+    },
+    "info": {
+      "formData": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": 1,
+            "name": "InfoThemeClassic"
+          },
+          "top": []
+        },
+        "info": {
+          "jobStatus": {
+            "text": "在職中",
+            "value": 1
+          },
+          "birthYear": "1986",
+          "birthMonth": {
+            "text": "11月",
+            "value": "11"
+          },
+          "birthDate": {
+            "text": "12",
+            "value": "12"
+          },
+          "age": "30",
+          "military": {
+            "text": "役畢",
+            "value": 1
+          },
+          "honoraryDischargeYear": "2000",
+          "honoraryDischargeMonth": {
+            "text": "01月",
+            "value": "01"
+          },
+          "cellphone": "0910101000",
+          "city": [
+            {
+              "des": "台北市中正區",
+              "no": 6001001001
+            }
+          ],
+          "street": "104路104號104號",
+          "bio": "",
+          "trait": [],
+          "personalLink1Type": {
+            "text": "個人網站",
+            "value": 1
+          },
+          "personalLink1Url": "",
+          "personalLink2Type": {
+            "text": "個人網站",
+            "value": 1
+          },
+          "personalLink2Url": "",
+          "personalLink3Type": {
+            "text": "個人網站",
+            "value": 1
+          },
+          "personalLink3Url": "",
+          "personalImageUrl": "/profile/avatar?vno=75nmn18cz",
+          "personalCoverUrl": ""
+        },
+        "addOn": {
+          "englishName": "mimimi",
+          "subCellphone": "0976180377",
+          "telArea": "02",
+          "tel": "123456456",
+          "contact": "0920123456",
+          "driveCert": [
+            {
+              "text": "輕型機車駕照",
+              "value": 1
+            }
+          ],
+          "trafficTool": [
+            {
+              "text": "輕型機車",
+              "value": 1
+            },
+            {
+              "text": "普通重型機車",
+              "value": 2
+            },
+            {
+              "text": "大型重型機車",
+              "value": 4
+            }
+          ],
+          "height": 170,
+          "weight": 60,
+          "marriageStatus": {
+            "text": "未婚",
+            "value": 1
+          },
+          "specialRole": [
+            {
+              "text": "原住民",
+              "value": 2
+            },
+            {
+              "text": "外籍人士",
+              "value": 1
+            }
+          ],
+          "dis1Type": null,
+          "dis1Level": null,
+          "dis2Type": null,
+          "dis2Level": null,
+          "dis3Type": null,
+          "dis3Level": null,
+          "disManual": {
+            "text": "無",
+            "value": 0
+          },
+          "disTool": [],
+          "disDesc": ""
+        }
+      }
+    },
+    "sidebar": [
+      {
+        "id": "info"
+      },
+      {
+        "id": "education"
+      },
+      {
+        "id": "experience"
+      },
+      {
+        "id": "jobCondition"
+      }
+    ],
+    "education": {
+      "formData": {
+        "educations": [
+          {
+            "name": "1FV8GMzyLcfSrq",
+            "departments": [
+              {
+                "name": "1FV8GMzyLcfSrq",
+                "type": [
+                  {
+                    "no": 3001004000,
+                    "des": "學前教育相關"
+                  }
+                ]
+              }
+            ],
+            "highest": {
+              "text": "三專",
+              "value": 7
+            },
+            "duration": {
+              "startYear": "2000",
+              "startMonth": {
+                "text": "1月",
+                "value": 1
+              },
+              "endYear": "2000",
+              "endMonth": {
+                "text": "1月",
+                "value": 1
+              }
+            },
+            "status": {
+              "text": "畢業",
+              "value": 1
+            },
+            "inSchoolStatus": {
+              "text": "日間就讀中",
+              "value": 1
+            },
+            "region": {
+              "text": "國外",
+              "value": 2
+            },
+            "foreign": [
+              {
+                "no": 7001007000,
+                "des": "寮國"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "name": "一零四大學3",
+            "departments": [
+              {
+                "name": "你說系你說",
+                "type": [
+                  {
+                    "no": 3018005000,
+                    "des": "其他相關科系"
+                  }
+                ]
+              },
+              {
+                "name": "後端更新科系2-2",
+                "type": [
+                  {
+                    "no": 3018005000,
+                    "des": "其他相關科系"
+                  }
+                ]
+              }
+            ],
+            "highest": {
+              "text": "博士",
+              "value": 1
+            },
+            "duration": {
+              "startYear": "2015",
+              "startMonth": {
+                "text": "6月",
+                "value": 6
+              },
+              "endYear": "2019",
+              "endMonth": {
+                "text": "10月",
+                "value": 10
+              }
+            },
+            "status": {
+              "text": "就學中",
+              "value": 3
+            },
+            "inSchoolStatus": {
+              "text": "假日就讀中",
+              "value": 3
+            },
+            "region": {
+              "text": "台灣",
+              "value": 7001053000
+            },
+            "foreign": [],
+            "sort": 2
+          }
+        ]
+      }
+    },
+    "experience": {
+      "formData": {}
+    },
+    "jobCondition": {
+      "formData": {
+        "jobCondition": {
+          "jobTimeType": [
+            {
+              "text": "全職工作",
+              "value": 1
+            }
+          ],
+          "jobWillType": [],
+          "jobTimePeriod": [
+            {
+              "text": "晚班",
+              "value": 2
+            }
+          ],
+          "otherTimePeriod": "",
+          "workShift": 0,
+          "onBoardDate": {},
+          "onBoardAfterGetOffer": null,
+          "customOnBoardDate": {
+            "year": "",
+            "month": null,
+            "date": null
+          },
+          "salary": {},
+          "salaryPeriod": {
+            "text": "月薪",
+            "value": 5
+          },
+          "salaryOfHours": "",
+          "salaryOfMonth": {
+            "unitOfTenThousand": null,
+            "unitOfThousand": null
+          },
+          "salariesOfYear": null,
+          "preferArea": [],
+          "preferJobTitle": "",
+          "preferJobType": [
+            {
+              "no":2006001001,
+              "des":"餐飲服務生"
+            }
+          ],
+          "preferJobIndustry": [],
+          "preferJobContent": ""
+        }
+      }
+    },
+    "skill": {
+      "formData": {}
+    },
+    "certificate": {
+      "formData": {}
+    },
+    "language": {
+      "formData": {}
+    },
+    "project": {
+      "formData": {}
+    },
+    "portfolio": {
+      "formData": {}
+    },
+    "bio": {
+      "formData": {}
+    },
+    "referrer": {
+      "formData": {}
+    },
+    "under18": {
+      "formData": {}
+    }
+  }
+}

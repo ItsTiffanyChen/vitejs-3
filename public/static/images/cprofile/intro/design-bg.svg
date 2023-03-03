@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="800" viewBox="0 0 1920 800">
+    <defs>
+        <path id="a" d="M7.277 0h1906.446A7.276 7.276 0 0 1 1921 7.276v429.263H0V7.276A7.276 7.276 0 0 1 7.277 0z"/>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF7800" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FF7800"/>
+        </linearGradient>
+        <linearGradient id="d" x1="48.72%" x2="50%" y1="15.854%" y2="100%">
+            <stop offset="0%" stop-color="#FFEEDF" stop-opacity=".977"/>
+            <stop offset="100%" stop-color="#FFEEDF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF7800" stop-opacity=".176"/>
+            <stop offset="100%" stop-color="#FFEEDF" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFEEDF" d="M2 0h1920v800H2z"/>
+        <g opacity=".5">
+            <path fill="#FFF" d="M0 0h1921v437H0z"/>
+            <path fill="#FFF" d="M7.277 0h1906.446A7.276 7.276 0 0 1 1921 7.276v429.263H0V7.276A7.276 7.276 0 0 1 7.277 0z"/>
+            <g>
+                <mask id="b" fill="#fff">
+                    <use xlink:href="#a"/>
+                </mask>
+                <g mask="url(#b)">
+                    <path fill="#FFEEDF" d="M0-43.654h1921v480.193H0z"/>
+                    <path fill="#FFF" fill-opacity=".5" d="M480.25 221.907h240.125v240.096H480.25z"/>
+                    <path fill="#FFF" d="M240.125 221.907H480.25v240.096H240.125z" opacity=".38"/>
+                    <path fill="#FFF" d="M0-18.19h240.125v240.097H0z" opacity=".334"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M0-18.19h240.125v240.097H0z" opacity=".563"/>
+                    <path fill="#FFF9F4" d="M720.375 221.907H960.5v240.096H720.375z" opacity=".458"/>
+                    <path fill="#FFD6B2" d="M480.25-18.19h240.125v240.097H480.25z" opacity=".5"/>
+                    <g>
+                        <path fill="#FFF" d="M960.5 220.088h240.125v240.096H960.5z" opacity=".253"/>
+                        <path fill="url(#c)" d="M240.125 0h360.188v480.193H240.125z" opacity=".085" transform="translate(960.5 -18.19)"/>
+                        <path fill="#FFF" d="M1200.625 462.004H960.5V221.907M1200.625 341.955h-120.063V221.907M960.5-18.19h240.125v240.097H960.5z" opacity=".543"/>
+                    </g>
+                    <g transform="translate(-198.285 -283.75)">
+                        <ellipse cx="438.41" cy="745.754" fill="#F3F3F3" opacity=".6" rx="132.796" ry="132.781"/>
+                        <ellipse cx="1759.098" cy="360.144" fill="#FFF" opacity=".6" rx="360.188" ry="360.144"/>
+                        <path fill="#FFF" d="M918.66 506.055V261.923c-132.617 0-240.125 111.53-240.125 244.132H918.66z" opacity=".6"/>
+                        <ellipse cx="198.285" cy="265.561" fill="#FFD6B2" opacity=".3" rx="198.285" ry="198.261"/>
+                        <path fill="url(#d)" d="M1759.098 720.289c198.926 0 360.187-161.242 360.187-360.145C2119.285 161.242 1958.024 0 1759.098 0" opacity=".07" transform="matrix(1 0 0 -1 0 720.289)"/>
+                        <path fill="url(#e)" d="M1759.098 720.289c0-198.902-161.262-360.145-360.188-360.145V719.82l360.188.469z" transform="rotate(180 1579.004 540.217)"/>
+                        <ellipse cx="594.855" cy="360.144" fill="#FF7800" opacity=".5" rx="12.734" ry="12.732"/>
+                        <ellipse cx="522.09" cy="427.444" fill="#FFD6B2" rx="25.468" ry="25.465"/>
+                        <ellipse cx="824.975" cy="572.048" fill="#FF7800" opacity=".5" rx="15.463" ry="15.461"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

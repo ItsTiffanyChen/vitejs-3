@@ -1,0 +1,611 @@
+{
+  "resume": {
+    "count": 6,
+    "name": {
+      "field": "履歷名稱",
+      "maxLength": 20,
+      "regex": "^[^`><;#@\\!\\”\\‘?~%*^\\${}=<>\\\\|‵＜＞；＃＠！“？～％＄＊︿｛｝＝＼]+$"
+    }
+  },
+  "info": {
+    "base": {
+      "jobStatus": {
+        "field": "就業狀態"
+      },
+      "birthYear": {
+        "field": "出生年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "maxLength": 4
+      },
+      "birthMonth": {
+        "field": "出生月份"
+      },
+      "birthDate": {
+        "field": "出生日"
+      },
+      "military": {
+        "field": "兵役狀態"
+      },
+      "honoraryDischargeYear": {
+        "field": "退伍年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "discharge": 2019,
+        "retreat": 2024,
+        "maxLength": 4
+      },
+      "honoraryDischargeMonth": {
+        "field": "退伍月份"
+      },
+      "cellphone": {
+        "field": "手機號碼",
+        "regex": "^(\\+)?[0-9]*$",
+        "minLength": 10,
+        "maxLength": 15
+      },
+      "city": {
+        "field": "地區"
+      },
+      "street": {
+        "field": "地址",
+        "invalidRegex": "^\\d+$",
+        "maxLength": 100
+      },
+      "bio": {
+        "field": "個人簡介",
+        "maxLength": 200
+      },
+      "traits": {
+        "field": "個人特色",
+        "count": 6,
+        "regex": "^[^,]*$",
+        "maxLength": 20
+      },
+      "personalLinks": {
+        "field": "個人連結",
+        "count": 3,
+        "type": {
+          "field": "類型"
+        },
+        "url": {
+          "regex": "^http(s)?:\\/\\/",
+          "maxLength": 200
+        }
+      },
+      "personalImageUrl": {
+        "field": "個人圖片"
+      },
+      "personalCoverUrl": {
+        "field": "個人背景"
+      }
+    },
+    "addOn": {
+      "englishName": {
+        "field": "英文名",
+        "regex": "^[a-zA-Z., ]*$",
+        "maxLength": 40
+      },
+      "subCellphone": {
+        "field": "次要手機",
+        "regex": "^(\\+)?[0-9]*$",
+        "minLength": 10,
+        "maxLength": 15
+      },
+      "telArea": {
+        "field": "市內電話-區碼",
+        "regex": "^\\d+$",
+        "maxLength": 5
+      },
+      "tel": {
+        "field": "市內電話",
+        "regex": "^\\d+(#\\d+){0,1}$",
+        "minLength": 5,
+        "maxLength": 13
+      },
+      "contact": {
+        "field": "聯絡方式",
+        "maxLength": 50
+      },
+      "driveCert": {
+        "field": "駕照",
+        "count": 3
+      },
+      "trafficTool": {
+        "field": "交通工具",
+        "count": 3
+      },
+      "height": {
+        "field": "身高",
+        "regex": "^\\d{0,3}$",
+        "maxLength": 3
+      },
+      "weight": {
+        "field": "體重",
+        "regex": "^\\d{0,3}$",
+        "maxLength": 3
+      },
+      "marriageStatus": {
+        "field": "婚姻狀況"
+      },
+      "specialRole": {
+        "field": "特殊身份",
+        "count": 0
+      },
+      "disability": {
+        "field": "身障類別",
+        "count": 3,
+        "type": {
+          "field": "類型"
+        },
+        "level": {
+          "field": "程度"
+        }
+      },
+      "disabilityManual": {
+        "fileld": "身障證明"
+      },
+      "disabilityTool": {
+        "fileld": "輔具",
+        "count": 0
+      },
+      "disabilityToolDesc": {
+        "fileld": "使用輔具其他說明",
+        "maxLength": 50
+      },
+      "themeChoose": {
+        "selectedTheme": [],
+        "top": []
+      }
+    }
+  },
+  "education": {
+    "educations": {
+      "field": "學歷",
+      "count": 3,
+      "name": {
+        "field": "學校名稱",
+        "maxLength": 120
+      },
+      "departments": {
+        "field": "科系",
+        "count": 3,
+        "name": {
+          "field": "科系名稱",
+          "maxLength": 100
+        },
+        "type": {
+          "field": "科系類別"
+        }
+      },
+      "highest": {
+        "field": "學歷"
+      },
+      "duration": {
+        "startYear": {
+          "field": "就學年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": 2019,
+          "maxLength": 4
+        },
+        "stratMonth": {
+          "field": "就學月份"
+        },
+        "endYear": {
+          "field": "畢業年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": 2026,
+          "maxLength": 4
+        },
+        "endMonth": {
+          "field": "畢業月份"
+        }
+      },
+      "status": {
+        "field": "就學狀態"
+      },
+      "inSchoolStatus": {
+        "field": "就讀狀態"
+      },
+      "region": {
+        "field": "學校地區"
+      },
+      "foreign": {
+        "field": "國外地區"
+      }
+    }
+  },
+  "experience": {
+    "seniority": {
+      "field": "總年資"
+    },
+    "experiences": {
+      "field": "工作經歷",
+      "count": 20,
+      "companyName": {
+        "field": "公司名",
+        "maxLength": 120
+      },
+      "industry": {
+        "field": "產業類別"
+      },
+      "companyScale": {
+        "field": "公司規模"
+      },
+      "workArea": {
+        "field": "工作地點"
+      },
+      "jobName": {
+        "field": "職稱",
+        "maxLength": 120
+      },
+      "jobType": {
+        "field": "職務類別"
+      },
+      "jobCat": {
+        "field": "職務類型"
+      },
+      "duration": {
+        "startYear": {
+          "field": "到職年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": 2019,
+          "maxLength": 4
+        },
+        "endYear": {
+          "field": "任職結束年份",
+          "regex": "^\\d{4}$",
+          "min": 1940,
+          "max": 2019,
+          "maxLength": 4
+        }
+      },
+      "salary": {
+        "monthlyPay": {
+          "field": "月薪",
+          "regex": "^\\d+$",
+          "maxLength": 6,
+          "startRegex": "^[1-9]\\d*$"
+        },
+        "yearPay": {
+          "field": "年薪",
+          "regex": "^\\d+$",
+          "maxLength": 8,
+          "startRegex": "^[1-9]\\d*$"
+        },
+        "jobParttimePay": {
+          "field": "兼職",
+          "regex": "^\\d+$",
+          "maxLength": 6,
+          "startRegex": "^[1-9]\\d*$"
+        }
+      },
+      "description": {
+        "field": "工作內容",
+        "maxLength": 1000
+      },
+      "skills": {
+        "field": "工作技能",
+        "count": 6,
+        "regex": "^[^,]*$",
+        "maxLength": 40
+      }
+    }
+  },
+  "jobCondition": {
+    "jobTimeType": {
+      "field": "希望工作性質"
+    },
+    "jobTimePeriod": {
+      "field": "上班時段"
+    },
+    "otherTimePeriod": {
+      "field": "其他上班時段",
+      "maxLength": 60
+    },
+    "onBoard": {
+      "onBoardDate": {
+        "field": "到職日類型"
+      },
+      "onBoardAfterGetOffer": {
+        "field": "錄取後 N 天到職"
+      },
+      "customOnBoardDate": {
+        "field": "自訂到職日",
+        "year": {
+          "max": 2020
+        }
+      }
+    },
+    "workShift": {
+      "field": "是否配合輪班"
+    },
+    "salaryType": {
+      "salary": {
+        "field": "薪資計算方式"
+      },
+      "customSalary": {
+        "hours": {
+          "field": "時薪",
+          "regex": "^\\d{0,6}$",
+          "startRegex": "^[1-9]\\d*$",
+          "minimumWage": 168
+        },
+        "month": {
+          "field": "月薪",
+          "unitOfTenThousand": {
+            "field": "萬"
+          },
+          "unitOfThousand": {
+            "field": "千"
+          },
+          "minimumWage": 25000
+        },
+        "year": {
+          "field": "年薪"
+        }
+      }
+    },
+    "preferArea": {
+      "field": "希望地點",
+      "count": 6
+    },
+    "preferJobTitle": {
+      "field": "希望職務名稱",
+      "maxLength": 120
+    },
+    "preferJobType": {
+      "field": "希望職類",
+      "count": 5
+    },
+    "preferJobIndustry": {
+      "field": "希望產業",
+      "count": 5
+    },
+    "preferJobContent": {
+      "field": "希望職務內容",
+      "maxLength": 2000
+    }
+  },
+  "skill": {
+    "skills": {
+      "field": "技能專長",
+      "count": 6,
+      "name": {
+        "filed": "技能專長",
+        "maxLength": 120
+      },
+      "desc": {
+        "field": "專長描述",
+        "maxLength": 1000
+      },
+      "tag": {
+        "field": "專常特色",
+        "count": 10
+      }
+    },
+    "themeChoose": {
+      "selectedTheme": []
+    }
+  },
+  "certificate": {
+    "list": {
+      "field": "證照",
+      "count": 20
+    },
+    "others": {
+      "field": "其他證照",
+      "maxLength": 500
+    }
+  },
+  "language": {
+    "foreign": {
+      "field": "外語",
+      "count": 4,
+      "type": {
+        "field": "外語種類"
+      },
+      "listening": {
+        "field": "外語程度-聽"
+      },
+      "speaking": {
+        "field": "外語程度-説"
+      },
+      "reading": {
+        "field": "外語程度-讀"
+      },
+      "writing": {
+        "field": "外語程度-寫"
+      },
+      "certificate": {
+        "field": "外語證照",
+        "count": 6,
+        "title": {
+          "field": "外語證照名稱"
+        },
+        "grade": {
+          "field": "外語證照分數",
+          "regex": "^\\d+(\\.\\d+){0,1}$|[a-zA-Z0-9]",
+          "maxLength": 6
+        }
+      }
+    },
+    "local": {
+      "field": "方言",
+      "count": 4,
+      "type": {
+        "field": "方言種類"
+      },
+      "level": {
+        "field": "方言程度"
+      }
+    }
+  },
+  "projects": {
+    "field": "專案",
+    "count": 6,
+    "img": {
+      "field": "專案照片",
+      "count": 1,
+      "src": {
+        "field": "專案圖片路徑"
+      },
+      "name": {
+        "field": "專案圖片名稱"
+      }
+    },
+    "name": {
+      "field": "專案名稱",
+      "maxLength": 120
+    },
+    "duration": {
+      "startYear": {
+        "field": "專案開始年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "max": 2019,
+        "maxLength": 4
+      },
+      "startMonth": {
+        "field": "專案開始月份"
+      },
+      "endYear": {
+        "field": "專案結束年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "max": 2019,
+        "maxLength": 4
+      },
+      "endMonth": {
+        "field": "專案結束月份"
+      }
+    },
+    "introduce": {
+      "field": "專案說明",
+      "maxLength": 400
+    },
+    "url": {
+      "field": "專案連結",
+      "regex": "^http(s)?:\\/\\/",
+      "maxLength": 200
+    }
+  },
+  "portfolios": {
+    "field": "作品/附件",
+    "count": 6,
+    "name": {
+      "field": "作品/附件名稱",
+      "regex": "^[^`><;#@\\!\\”\\‘?~%*^\\${}=<>\\\\|‵＜＞；＃＠！“？～％＄＊︿｛｝＝＼]+$",
+      "maxLength": 120
+    },
+    "attach": {
+      "name": {
+        "field": "附件名稱",
+        "maxLength": 50
+      },
+      "url": {
+        "field": "附件連結",
+        "regex": "^http(s)?:\\/\\/",
+        "maxLength": 200
+      },
+      "src": {
+        "field": "附件圖檔路徑"
+      },
+      "type": {
+        "field": "附件類型"
+      }
+    }
+  },
+  "bio": {
+    "chi": {
+      "field": "中文自傳",
+      "maxLength": 4000
+    },
+    "eng": {
+      "field": "英文自傳",
+      "maxLength": 8000
+    }
+  },
+  "referrers": {
+    "field": "推薦人",
+    "count": 2,
+    "name": {
+      "field": "姓名",
+      "maxLength": 30
+    },
+    "company": {
+      "field": "服務單位",
+      "maxLength": 35
+    },
+    "position": {
+      "field": "職銜",
+      "maxLength": 20
+    },
+    "email": {
+      "field": "信箱",
+      "maxLength": 50,
+      "regex": "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*(\\.[a-zA-Z]{2,})$"
+    },
+    "tel": {
+      "field": "電話",
+      "maxLength": 50
+    }
+  },
+  "customs": {
+    "field": "自訂內容",
+    "count": 6,
+    "name": {
+      "field": "標題",
+      "maxLength": 120
+    },
+    "duration": {
+      "startYear": {
+        "field": "開始年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "max": 2019,
+        "maxLength": 4
+      },
+      "startMonth": {
+        "field": "開始月份"
+      },
+      "endYear": {
+        "field": "結束年份",
+        "regex": "^\\d{4}$",
+        "min": 1940,
+        "max": 2019,
+        "maxLength": 4
+      },
+      "endMonth": {
+        "field": "結束月份"
+      }
+    },
+    "introduce": {
+      "field": "說明",
+      "maxLength": 400
+    },
+    "url": {
+      "field": "連結",
+      "maxLength": 200,
+      "regex": "^http(s)?:\\/\\/"
+    },
+    "backgroundUpload": {
+      "img": {
+        "field": "背景圖",
+        "count": 1,
+        "name": {
+          "field": "背景圖名稱"
+        },
+        "src": {
+          "field": "背景圖路徑"
+        }
+      }
+    },
+    "themeChoose": {
+      "selectedTheme": []
+    }
+  }
+}

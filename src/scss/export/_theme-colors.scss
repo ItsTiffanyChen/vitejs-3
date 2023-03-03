@@ -1,0 +1,11 @@
+/* stylelint-disable */
+@import "~node_modules/bootstrap/scss/functions";
+@import "~node_modules/bootstrap/scss/variables";
+@import "~scss/bootstrap/variables";
+// @import "../../bootstrap/bootstrap";
+
+:export {
+  @each $color, $value in $theme-colors {
+    #{$color}: $value;
+  }
+}

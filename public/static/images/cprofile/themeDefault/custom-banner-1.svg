@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="936" height="200" viewBox="0 0 936 200">
+    <defs>
+        <rect id="a" width="936" height="200" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-60-2874h1176V688H-60z"/>
+        <g>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#a"/>
+            <g mask="url(#b)">
+                <path fill="#FFEEDF" d="M0 0h936v200H0z"/>
+                <path fill="#FFF" d="M132 132h804v132H132z" opacity=".38"/>
+                <g transform="translate(0 -3)">
+                    <circle cx="264" cy="135" r="132" fill="#FFF" opacity=".497"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M264 3h132v132H264z"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M0 3h132v132H0z" opacity=".478"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M264 0h132v241H264z" opacity=".5"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M528 3h132v132H528z" opacity=".352"/>
+                    <path fill="#FFD6B2" fill-opacity=".5" d="M660 3h132v132H660z" opacity=".133"/>
+                    <g fill="#FFD6B2">
+                        <path fill-opacity=".8" d="M132 135h528v132H132z" opacity=".486"/>
+                        <path fill-opacity=".5" d="M660 135h132v132H660z" opacity=".2"/>
+                    </g>
+                    <path fill="#FFF" d="M264 3c-72.902 0-132 59.098-132 132h132.09" opacity=".3"/>
+                    <path fill="#FFF" d="M264.09 3c72.901 0 132 59.098 132 132H264" opacity=".546"/>
+                </g>
+            </g>
+            <g stroke="#FF7800" stroke-linecap="round" mask="url(#b)">
+                <path d="M333.5 56c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M333.5 62c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4M333.5 68c6.198 0 6.198 4 12.395 4 6.2 0 6.2-4 12.4-4 6.198 0 6.198 4 12.397 4 6.2 0 6.2-4 12.404-4 6.2 0 6.2 4 12.404 4"/>
+            </g>
+            <g fill="#FF7800" mask="url(#b)" opacity=".5">
+                <g transform="translate(288 125)">
+                    <circle cx="2" cy="2" r="2"/>
+                    <circle cx="14" cy="2" r="2"/>
+                    <circle cx="26" cy="2" r="2"/>
+                    <circle cx="2" cy="14" r="2"/>
+                    <circle cx="14" cy="14" r="2"/>
+                    <circle cx="26" cy="14" r="2"/>
+                    <circle cx="2" cy="26" r="2"/>
+                    <circle cx="14" cy="26" r="2"/>
+                    <circle cx="26" cy="26" r="2"/>
+                    <circle cx="2" cy="38" r="2"/>
+                    <circle cx="14" cy="38" r="2"/>
+                    <circle cx="26" cy="38" r="2"/>
+                    <circle cx="2" cy="50" r="2"/>
+                    <circle cx="14" cy="50" r="2"/>
+                    <circle cx="26" cy="50" r="2"/>
+                    <circle cx="38" cy="2" r="2"/>
+                    <circle cx="38" cy="14" r="2"/>
+                    <circle cx="38" cy="26" r="2"/>
+                    <circle cx="38" cy="38" r="2"/>
+                    <circle cx="38" cy="50" r="2"/>
+                    <circle cx="50" cy="2" r="2"/>
+                    <circle cx="50" cy="14" r="2"/>
+                    <circle cx="50" cy="26" r="2"/>
+                    <circle cx="50" cy="38" r="2"/>
+                    <circle cx="50" cy="50" r="2"/>
+                    <circle cx="62" cy="2" r="2"/>
+                    <circle cx="62" cy="14" r="2"/>
+                    <circle cx="62" cy="26" r="2"/>
+                    <circle cx="62" cy="38" r="2"/>
+                    <circle cx="62" cy="50" r="2"/>
+                </g>
+            </g>
+            <circle cx="210" cy="75" r="8" fill="#FF7800" mask="url(#b)"/>
+            <path fill="#FFC31B" d="M736.64 54L741 74l-20-4.528z" mask="url(#b)" transform="rotate(86 731 64)"/>
+            <circle cx="592" cy="169" r="8" fill="#FFD6B2" mask="url(#b)"/>
+            <circle cx="453" cy="56" r="5" fill="#FF7800" mask="url(#b)"/>
+            <path fill="#FFD6B2" d="M936 276V132c-79.529 0-144 64.364-144 143.762L936 276z" mask="url(#b)" opacity=".4" transform="rotate(180 864 204)"/>
+            <path fill="#FFD6B2" d="M862 83c5.523 0 10-4.03 10-9s-4.477-9-10-9" mask="url(#b)" transform="rotate(42 867 74)"/>
+            <circle cx="486" cy="89" r="8" fill="#FFD6B2" mask="url(#b)" opacity=".5"/>
+        </g>
+    </g>
+</svg>

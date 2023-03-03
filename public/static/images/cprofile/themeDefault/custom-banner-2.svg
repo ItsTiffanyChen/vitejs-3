@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="936" height="200" viewBox="0 0 936 200">
+    <defs>
+        <rect id="a" width="936" height="200" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-60-3086h1176V476H-60z"/>
+        <g>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#a"/>
+            <g mask="url(#b)">
+                <path fill="#79D9DF" d="M0 0h936v200H0z" opacity=".8"/>
+                <path fill="#39C8D0" d="M264 132h672v132H264z" opacity=".217"/>
+                <g transform="translate(0 -12)">
+                    <path fill="#39C8D0" d="M264 12h132v132H264z" opacity=".606"/>
+                    <path fill="#FFF" d="M528 12h132v132H528z" opacity=".048"/>
+                    <path fill="#39C8D0" fill-opacity=".195" d="M660 12h276v132H660z"/>
+                    <path fill="#39C8D0" fill-opacity=".5" d="M264 144h396v132H264z" opacity=".112"/>
+                    <path fill="#FFF" d="M660 144h295v132H660z" opacity=".106"/>
+                    <path fill="#00AFB8" d="M528 144h132v132H528z" opacity=".01"/>
+                    <path fill="#39C8D0" d="M396 144h132v132H396z" opacity=".231"/>
+                    <path fill="#39C8D0" d="M264 144h132v132H264z" opacity=".183"/>
+                    <path fill="#00AFB8" d="M264 12h132v132H264z" opacity=".2"/>
+                    <path fill="#FFF" d="M264 12h132v132H264z" opacity=".508"/>
+                    <path fill="#39C8D0" d="M132 144h132v132H132z" opacity=".25"/>
+                    <circle cx="593" cy="84" r="10" fill="#00AFB8" opacity=".377"/>
+                    <circle cx="458" cy="180" r="10" fill="#00AFB8" opacity=".2"/>
+                    <circle cx="202" cy="51" r="10" fill="#00AFB8" opacity=".377"/>
+                    <path fill="#39C8D0" d="M660 0v144c79.529 0 144-64.364 144-143.762L660 0z" opacity=".17"/>
+                    <circle cx="467" cy="69" r="4" fill="#39C8D0"/>
+                    <circle cx="869" cy="87" r="10" fill="#39C8D0"/>
+                    <path fill="#FFF" d="M132 212H0V80" opacity=".3"/>
+                    <path stroke="#39C8D0" stroke-width="2" d="M364.31 98.504l-15.774-7.362 2.001 16.028 13.772-8.666zM792.281 186.172l-1.511-17.341-12.88 9.747 14.391 7.594z"/>
+                </g>
+            </g>
+            <path fill="#FFF" d="M132 132H66V66" mask="url(#b)" opacity=".3"/>
+            <path fill="#FFF" d="M66 66H0V0M132 66H66V0" mask="url(#b)" opacity=".15"/>
+            <circle cx="312" cy="54" r="6" fill="#1654B9" fill-opacity=".6" mask="url(#b)"/>
+        </g>
+    </g>
+</svg>

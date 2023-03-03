@@ -1,0 +1,85 @@
+{
+  "captchaUri": "",
+  "jsonOptionsInfo": {
+    "feedbackTypes": [
+      {
+        "text": "網站使用問題",
+        "value": 1,
+        "subTypes": [
+          {
+            "text": "忘記密碼",
+            "value": 11
+          },
+          {
+            "text": "履歷相關問題",
+            "value": 12
+          },
+          {
+            "text": "找工作相關問題",
+            "value": 13
+          },
+          {
+            "text": "手機服務",
+            "value": 14
+          },
+          {
+            "text": "隱私與資訊安全問題",
+            "value": 15
+          },
+          {
+            "text": "履歷診療室",
+            "value": 16
+          }
+        ]
+      },
+      {
+        "text": "申訴/檢舉公司",
+        "value": 2,
+        "subTypes": [
+          {
+            "text": "工作內容與實際不符",
+            "value": 21
+          },
+          {
+            "text": "公司人員態度有問題",
+            "value": 22
+          },
+          {
+            "text": "公司通知面試/到職失約",
+            "value": 23
+          },
+          {
+            "text": "公司回覆無徵人需求",
+            "value": 24
+          },
+          {
+            "text": "發送廣告信/推銷產品",
+            "value": 25
+          },
+          {
+            "text": "違反勞動相關法令",
+            "value": 26
+          },
+          {
+            "text": "不知名公司與我聯絡",
+            "value": 27
+          },
+          {
+            "text": "詐騙/性騷擾",
+            "value": 28
+          }
+        ]
+      },
+      {
+        "text": "多元服務",
+        "value": 3,
+        "subTypes": [
+          {
+            "text": "104探吉",
+            "value": 33
+          }
+        ]
+      }
+    ]
+  }
+}

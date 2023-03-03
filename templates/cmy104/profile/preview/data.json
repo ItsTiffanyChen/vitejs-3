@@ -1,0 +1,863 @@
+{
+  "viewData": {
+    "resume": {
+      "name": "第四份履歷",
+      "publicStatus": {
+        "text": "關閉中",
+        "value": 1
+      },
+      "resumeType": {
+        "text": "一般履歷",
+        "value": 1
+      }
+    },
+    "ACData": {
+      "info": {
+        "name": "孫藝珍",
+        "email": "tingru01@104.com.tw",
+        "gender": {
+          "text": "女",
+          "value": 0
+        },
+        "birthYear": 2004,
+        "birthMonth": null,
+        "birthDate": null,
+        "age": 16,
+        "cellphone": "0912345678423",
+        "city": [
+          {
+            "des": "貝里斯",
+            "no": 6006001001
+          }
+        ],
+        "street": "羅斯福路五段245號17樓之7"
+      }
+    },
+    "info": {
+      "viewData": {
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "極簡主義",
+            "value": 2,
+            "name": "InfoThemeSimple"
+          },
+          "top": []
+        },
+        "info": {
+          "jobStatus": {},
+          "birthYear": "2004",
+          "birthMonth": null,
+          "birthDate": null,
+          "age": 16,
+          "military": {},
+          "honoraryDischargeYear": "",
+          "honoraryDischargeMonth": {},
+          "cellphone": "0912345678423",
+          "city": [
+            {
+              "des": "貝里斯",
+              "no": 6006001001
+            }
+          ],
+          "street": "羅斯福***",
+          "bio": "",
+          "trait": [],
+          "personalLink1Type": null,
+          "personalLink1Url": "",
+          "personalLink2Type": null,
+          "personalLink2Url": "",
+          "personalLink3Type": null,
+          "personalLink3Url": "",
+          "personalImageUrl": "/profile/avatar",
+          "personalCoverUrl": "/profile/images/background_img?vno=75wg538vu",
+          "showPersonalLink": null
+        },
+        "addOn": {
+          "englishName": "",
+          "subCellphone": "",
+          "telArea": "",
+          "tel": "",
+          "contact": "",
+          "driveCert": [
+            {
+              "text": "大型重型機車駕照",
+              "value": 4
+            },
+            {
+              "text": "普通小型車駕照",
+              "value": 8
+            }
+          ],
+          "trafficTool": [],
+          "height": "",
+          "weight": "",
+          "marriageStatus": {},
+          "specialRole": [],
+          "dis1Type": null,
+          "dis1Level": null,
+          "dis2Type": null,
+          "dis2Level": null,
+          "dis3Type": null,
+          "dis3Level": null,
+          "disManual": null,
+          "disTool": null,
+          "disDesc": null,
+          "nationality": []
+        }
+      }
+    },
+    "sidebar": [
+      {
+        "id": "info",
+        "progress": 100
+      },
+      {
+        "id": "education",
+        "progress": 100
+      },
+      {
+        "id": "experience",
+        "progress": 0
+      },
+      {
+        "id": "jobCondition",
+        "progress": 100
+      },
+      { "id": "bio" },
+      {
+        "id": "certificate"
+      },
+      {
+        "id": "portfolio"
+      }
+    ],
+    "education": {
+      "viewData": {
+        "educations": [
+          {
+            "schoolId": null,
+            "name": "Universidad de La Habana",
+            "departments": [
+              {
+                "name": "uh;",
+                "type": []
+              }
+            ],
+            "highest": {
+              "text": "碩士",
+              "value": 2
+            },
+            "duration": {
+              "startYear": null,
+              "startMonth": null,
+              "endYear": null,
+              "endMonth": null
+            },
+            "status": {
+              "text": "肄業",
+              "value": 2
+            },
+            "inSchoolStatus": {},
+            "region": {
+              "text": "國外",
+              "value": 2
+            },
+            "foreign": [],
+            "sort": 1
+          },
+          {
+            "name": "國立中央大學",
+            "departments": [
+              {
+                "name": "資訊管理系",
+                "type": [
+                  {
+                    "no": 3001001000,
+                    "des": "綜合教育相關"
+                  }
+                ]
+              }
+            ],
+            "highest": {
+              "text": "大學",
+              "value": 3
+            },
+            "duration": {
+              "startYear": "2008",
+              "startMonth": {
+                "text": 9,
+                "value": 9
+              },
+              "endYear": "2012",
+              "endMonth": {
+                "text": 6,
+                "value": 6
+              }
+            },
+            "status": {
+              "text": "畢業",
+              "value": 1
+            },
+            "inSchoolStatus": {},
+            "region": {
+              "text": "台灣",
+              "value": 7001053000
+            },
+            "foreign": [],
+            "sort": 2
+          },
+          {
+            "schoolId": null,
+            "name": "國立臺灣大學",
+            "departments": [
+              {
+                "name": "國際企業經營系",
+                "type": [
+                  {
+                    "no": 3001005000,
+                    "des": "其他教育相關"
+                  }
+                ]
+              }
+            ],
+            "highest": {
+              "text": "博士",
+              "value": 1
+            },
+            "duration": {
+              "startYear": "2022",
+              "startMonth": {
+                "text": 1,
+                "value": 1
+              },
+              "endYear": "2022",
+              "endMonth": {
+                "text": 5,
+                "value": 5
+              }
+            },
+            "status": {
+              "text": "就學中",
+              "value": 3
+            },
+            "inSchoolStatus": {
+              "text": "夜間就讀中",
+              "value": 2
+            },
+            "region": {
+              "text": "台灣",
+              "value": 7001053000
+            },
+            "foreign": [],
+            "sort": 3
+          }
+        ]
+      }
+    },
+    "experience": {
+      "viewData": {
+        "experiences": [
+          {
+            "companyName": "ABC數位資訊股份有限公司",
+            "industry": [
+              {
+                "no": 1001001003,
+                "des": "網際網路相關業"
+              }
+            ],
+            "companyScale": {
+              "text": "100~500人",
+              "value": 3
+            },
+            "jobName": "產品企劃專員",
+            "workArea": [],
+            "jobType": {
+              "text": "全職",
+              "value": 1
+            },
+            "jobCat": [
+              {
+                "no": 2004002002,
+                "des": "產品企劃開發人員"
+              }
+            ],
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": 10,
+                "value": 10
+              },
+              "endYear": "",
+              "endMonth": []
+            },
+            "description": "1. 分析需求：研究市場趨勢、蒐集對手資訊，分析出對公司有利的策略。\n2. 專案開發：與開發團隊緊密配合，管控專案進度；包括可行性評估、推動設計方案、規格撰寫、開發、測試、發佈。\n3. 追蹤成效：觀測用戶反饋、數據，並持續營運產品，進行下一代產品規劃。\n\n重要專案\n【XYZ類商品頁改版】成效：商品頁轉換率成長21%，業績成長4.3%\n【商品後台改版】成果：增加商品設定手機呈現、數據分析，為後台最高客戶滿意度的專案",
+            "skill": ["網站經營", "市場調查研究", "專案管理"],
+            "management": {
+              "text": "管理4人以下",
+              "value": 1
+            },
+            "salary": {
+              "monthPay": "",
+              "yearPay": "",
+              "jobParttimeType": {},
+              "jobParttimePay": ""
+            },
+            "companyVisibility": true,
+            "stillWork": true,
+            "salaryVisibility": false,
+            "sort": 1
+          },
+          {
+            "companyName": "WWW數位媒體行銷股份有限公司",
+            "industry": [
+              {
+                "no": 1001001005,
+                "des": "數位內容產業"
+              }
+            ],
+            "companyScale": {
+              "text": "30~100人",
+              "value": 2
+            },
+            "jobName": "產品企劃專員",
+            "workArea": [
+              {
+                "no": 6001002003,
+                "des": "新北市板橋區"
+              }
+            ],
+            "jobType": {
+              "text": "全職",
+              "value": 1
+            },
+            "jobCat": [
+              {
+                "no": 2004001005,
+                "des": "行銷企劃人員"
+              }
+            ],
+            "duration": {
+              "startYear": "2014",
+              "startMonth": {
+                "text": 7,
+                "value": 7
+              },
+              "endYear": "2017",
+              "endMonth": {
+                "text": 6,
+                "value": 6
+              }
+            },
+            "description": "1. 日常網站經營：bug排除、數據觀測\n2. 匯整網站經營狀況，和產品經理一起討論專案方向\n3. 執行產品經理指派網站規劃工作\n\n主要成就：\n- 導入Google tag manager管理公司Google Analytic代碼\n- 協助產品經理「VIP會員專案」，獲得公司2016年優秀員工獎",
+            "skill": ["網站經營", "Axure", "GTM"],
+            "management": "",
+            "salary": {
+              "monthPay": 40000,
+              "yearPay": 1000000,
+              "jobParttimeType": {
+                "text": "平均時薪",
+                "value": 1
+              },
+              "jobParttimePay": ""
+            },
+            "companyVisibility": true,
+            "stillWork": false,
+            "salaryVisibility": true,
+            "sort": 2
+          },
+          {
+            "companyName": "WWW數位媒體行銷股份有限公司",
+            "industry": [
+              {
+                "no": 1001001005,
+                "des": "數位內容產業"
+              }
+            ],
+            "companyScale": {
+              "text": "30~100人",
+              "value": 2
+            },
+            "jobName": "前端工程師",
+            "workArea": [
+              {
+                "no": 6001002003,
+                "des": "新北市板橋區"
+              }
+            ],
+            "jobType": {
+              "text": "全職",
+              "value": 1
+            },
+            "jobCat": [
+              {
+                "no": 2007001006,
+                "des": "Internet程式設計師"
+              }
+            ],
+            "duration": {
+              "startYear": "2012",
+              "startMonth": {
+                "text": 6,
+                "value": 6
+              },
+              "endYear": "2014",
+              "endMonth": {
+                "text": 7,
+                "value": 7
+              }
+            },
+            "description": "負責www主網站前端功能開發，包括CSS切版、jQuery使用，並瞭解SEO、GA相關知識。\n前端的工作需和PM、設計師緊密合作，因為對使用者需求和網站規劃產生興趣，後來在公司內轉任產品企劃專員。",
+            "skill": ["HTML5", "CSS3", "Javascript", "jQuery", "Bootstrap"],
+            "management": "",
+            "salary": {
+              "monthPay": "",
+              "yearPay": "",
+              "jobParttimeType": {
+                "text": "平均時薪",
+                "value": 1
+              },
+              "jobParttimePay": 50000
+            },
+            "companyVisibility": true,
+            "stillWork": false,
+            "salaryVisibility": false,
+            "sort": 3
+          },
+          {
+            "companyName": "興潤房屋仲介有限公司wws",
+            "custNo": 0,
+            "invoice": 0,
+            "logo": "",
+            "industry": [
+              {
+                "no": 1003002001,
+                "des": "農／畜／水產品零售業"
+              }
+            ],
+            "companyScale": "",
+            "jobName": "11",
+            "workArea": [
+              {
+                "no": 6001003001,
+                "des": "宜蘭縣宜蘭市"
+              }
+            ],
+            "jobType": {
+              "text": "全職",
+              "value": 1
+            },
+            "jobCat": [
+              {
+                "no": 2001001002,
+                "des": "儲備幹部人才"
+              }
+            ],
+            "duration": {
+              "startYear": "2000",
+              "startMonth": {
+                "text": 1,
+                "value": 1
+              },
+              "endYear": "2000",
+              "endMonth": {
+                "text": 3,
+                "value": 3
+              }
+            },
+            "description": "",
+            "skill": ["櫃檯門市接待與需求服務"],
+            "management": "",
+            "salary": {
+              "monthPay": "",
+              "yearPay": "",
+              "jobParttimeType": {},
+              "jobParttimePay": ""
+            },
+            "companyVisibility": true,
+            "stillWork": true,
+            "salaryVisibility": false,
+            "sort": 4
+          },
+          {
+            "companyName": "興潤房屋仲介有限公司wws123",
+            "custNo": 0,
+            "invoice": 0,
+            "logo": "",
+            "industry": [],
+            "companyScale": "",
+            "jobName": "11",
+            "workArea": [
+              {
+                "no": 6001003001,
+                "des": "宜蘭縣宜蘭市"
+              }
+            ],
+            "jobType": {
+              "text": "全職",
+              "value": 1
+            },
+            "jobCat": [
+              {
+                "no": 2001001002,
+                "des": "儲備幹部人才"
+              }
+            ],
+            "duration": {
+              "startYear": "",
+              "startMonth": {},
+              "endYear": "",
+              "endMonth": {}
+            },
+            "description": "",
+            "skill": ["櫃檯門市接待與需求服務"],
+            "management": "",
+            "salary": {
+              "monthPay": "",
+              "yearPay": "",
+              "jobParttimeType": {},
+              "jobParttimePay": ""
+            },
+            "companyVisibility": true,
+            "stillWork": true,
+            "salaryVisibility": false,
+            "sort": 5
+          }
+        ],
+        "seniority": {
+          "text": "6~7年工作經歷",
+          "value": 6
+        }
+      }
+    },
+    "jobCondition": {
+      "viewData": {
+        "jobCondition": {
+          "jobTimeType": [
+            {
+              "text": "全職工作",
+              "value": 1
+            }
+          ],
+          "jobWillType": [],
+          "jobTimePeriod": [
+            {
+              "text": "晚班",
+              "value": 2
+            }
+          ],
+          "otherTimePeriod": "",
+          "workShift": 0,
+          "onBoardDate": {},
+          "onBoardAfterGetOffer": null,
+          "customOnBoardDate": {
+            "year": "",
+            "month": null,
+            "date": null
+          },
+          "salary": {
+            "text": "面議"
+          },
+          "salaryPeriod": {
+            "text": "月薪",
+            "value": 5
+          },
+          "salaryOfHours": "",
+          "salaryOfMonth": {
+            "unitOfTenThousand": null,
+            "unitOfThousand": null
+          },
+          "salariesOfYear": null,
+          "preferArea": [],
+          "preferJobTitle": "",
+          "preferJobType": [
+            {
+              "no": 2006001001,
+              "des": "餐飲服務生"
+            }
+          ],
+          "preferJobIndustry": [],
+          "preferJobContent": ""
+        }
+      }
+    },
+    "referrer":{
+      "viewData":{
+        "referrers":[
+          {
+            "name": "王大明",
+            "company": "WWW數位媒體行銷股份有限公司",
+            "position": "設計總監",
+            "email": "ming12345678@www.com",
+            "tel": "0975888999",
+            "sort": 1
+          }
+        ]
+      }
+    },
+    "project": {
+      "viewData": {
+        "projects": [
+          {
+            "name": "XYZ類商品頁改版",
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": 11,
+                "value": 11
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": 6,
+                "value": 6
+              }
+            },
+            "isInProgress": [],
+            "introduce": "．成效：商品頁轉換率成長21%，業績成長4.3%\n．擔任專案PM，帶領設計、前後端工程、QA共7人一起完成專案\n．專案主要內容：\n    1. 商品頁改版\n    2. 強化放大商品特色\n    3. 商品組合規劃\n    4. 個人化商品推薦\n\n註：專案內容多屬公司機密，僅截取重要資訊",
+            "url": "",
+            "img": {
+              "pic": "1",
+              "fileId": "achievement_img1",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/achievement_img1.jpeg"
+            },
+            "sort": 1
+          },
+          {
+            "name": "商品後台改版",
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": 7,
+                "value": 7
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": 9,
+                "value": 9
+              }
+            },
+            "isInProgress": [],
+            "introduce": "．成果：為後台最高客戶滿意度的專案\n．擔任專案PM，帶領設計、前後端工程、QA共6人一起完成專案\n．專案主要內容：\n    1. 商品設定頁增加手機版設定\n    2. 增加商品數據\n    3. 增加造訪用戶分析\n\n註：專案內容多屬公司機密，僅截取重要資訊",
+            "url": "",
+            "img": {
+              "pic": "1",
+              "fileId": "achievement_img2",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/achievement_img2.jpeg"
+            },
+            "sort": 2
+          }
+        ]
+      }
+    },
+    "portfolio": {
+      "viewData": {
+        "portfolios": [
+          {
+            "name": "測試作品專案",
+            "attach": {
+              "auth": true,
+              "fileId": "upload1",
+              "name": "deerMessage.pdf",
+              "src": "base64...",
+              "status": 2,
+              "token": "jwtToken...",
+              "url": "https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 1
+          },
+          {
+            "name": "AAA市場分析",
+            "attach": {
+              "name": "AAA市場分析.pptx",
+              "status": 2,
+              "url": "",
+              "fileId": "upload5",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/portfolio2.jpeg"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 2
+          },
+          {
+            "name": "GTM分享",
+            "attach": {
+              "name": "GTM分享.pdf",
+              "status": 2,
+              "url": "",
+              "fileId": "upload6",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/portfolio3.jpeg"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 3
+          },
+          {
+            "name": "facebook網站",
+            "attach": {
+              "name": "www.facebook.com",
+              "status": 0,
+              "url": "https://www.facebook.com",
+              "fileId": "",
+              "src": "",
+              "crawler": true
+            },
+            "attachType": { "text": "連結", "value": 2 },
+            "sort": 4
+          }
+        ]
+      }
+    },
+    "custom1": {
+      "viewData": {
+        "custom": {
+          "name": "旅遊影像記錄",
+          "duration": {
+            "startYear": "",
+            "startMonth": {},
+            "endYear": "",
+            "endMonth": {}
+          },
+          "isInProgress": [],
+          "introduce": "世界是一本書，不旅行的人只讀一頁。\n擔任PM、企劃工作，除了平常要吸收科技知識，接觸不同的文化事物，也能增進自己的感知能力。\n每隔一段時間，我會安排國外旅遊，一方面舒解專案的壓力，另一方面也增進視野。\n隨著vlog的興盛，自己也學習將旅遊記錄轉成影像。\n學習一塊東西不難，但做到好的確有技巧及要下功夫。",
+          "url": "https://www.104.com.tw",
+          "sort": 1
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "大型橫幅",
+            "value": 2,
+            "name": "CustomThemeBanner"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img1",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img1.jpeg"
+          }
+        }
+      }
+    },
+    "custom2": {
+      "viewData": {
+        "custom": {
+          "name": "駭客松佳作 - 清冰箱",
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": 9,
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": 9,
+              "value": 9
+            }
+          },
+          "isInProgress": [],
+          "introduce": "進ABC公司的第一年，公司舉辦駭客松比賽，雖那時是工程，但平常就喜歡創意發想，也累積不少鬼點子，得知有駭客松比賽，立刻揪同事組團參加。短時間內要設定主題、評估方案、凝聚共識、規劃DEMO...，很不容易。\n\n公司共27組參賽，很慶幸我們拿到佳作，對我們這群剛進公司的天兵天團來說，算是不小的肯定。\n\n現在回想，比賽只是一時，更寶貴的是有機會學習從市場、商業的角度評估產品價值，是往PM發展的一個啟發。",
+          "url": "https://www.104.com.tw",
+          "sort": 2
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": 1,
+            "name": "CustomThemeClassic"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img2",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img2.jpeg"
+          }
+        }
+      }
+    },
+    "custom3": {
+      "viewData": {
+        "custom": {
+          "name": "菲律賓公益旅行",
+          "duration": {
+            "startYear": "2019",
+            "startMonth": {
+              "text": 8,
+              "value": 8
+            },
+            "endYear": "",
+            "endMonth": {}
+          },
+          "isInProgress": [],
+          "introduce": "在這十天的公益旅行中，我們到了三個社區，舉辦了五場活動，我們透過舞蹈、歌曲及戲劇表演的方式教導當地小孩基本的正確習慣，例如不可以隨手亂丟垃圾，改善他們較差的生活環境，以及親手製作包子發放給社區的居民，從小孩們的微笑及區民微笑點頭致謝，讓我感受到服務、幫助他人的快樂，也讓我更加堅信自己要成為一個giver。",
+          "url": "https://www.104.com.tw",
+          "sort": 2
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "純文字",
+            "value": 3,
+            "name": "CustomThemeText"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img2",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img2.jpeg"
+          }
+        }
+      }
+    },
+    "bio": {
+      "viewData": {
+        "bio": {
+          "chi": "一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。一位學生拿到了鴻海教育基金會的10萬獎學金，我們看看他的範例：\n\n「念的是機械，因此打工我選擇相關的『巴士修理』，這可以結合理論與實務，而且我發現『修巴士』和『修飛機』的原理很類似，因此，我決定日後成為一位飛機修護員。但因為飛機修護單都是英文，我也要努力學習英文。」\n\n因為有細節組成的邏輯，我和同組評審都決定選這一位。他的學業平均只有80分，另三位競爭者雖然平均95分以上，但因自傳「缺乏具體的細節」，成為遺珠，他們的表達典型如下：\n\n「在學校我努力學習各種課程，課餘我會打工，我希望念好商科的各種專業，未來成為商場的生力軍。」\n\n評審讀這種自我介紹，像是霧裡看花，會思忖：「各種課程」是哪一種課程？「打工」是打哪一種工？「商場」又是哪一種專業領域？\n\n可以發現，名詞沒有縮小範圍(narrow down)的過程，具體細節出不來，表達的效能因此大打折扣。",
+          "eng": "My name is Chan Siu Lin,From Taichung. I graduated from Soochow University and my major was in History. There are 4 people in my family. My father works in the trade company as a sales representative., and my mother is a house wife…. Because of coming to Taiwan to study, I developed an independent personality. In order to lighten my parents burden, I took several part-time job, like waitress, sales assistant, .From those working experience, I learned many great skills in dealing with people."
+        }
+      }
+    },
+    "certificate": {
+      "viewData": {
+        "certificate": {
+          "certificates": [
+            {
+              "category": "Google",
+              "items": [
+                {
+                  "des": "Google Analytics (分析) 個人認證資格"
+                }
+              ]
+            }
+          ],
+          "others": ""
+        }
+      }
+    },
+    "skill": {
+      "viewData": {
+        "skills": [
+          {
+            "name": "問題解決",
+            "desc": "盡量清楚描述這項專長的熟練、應用程度，盡量清楚描述這項專長的熟練、應用程度，盡量清楚描述這項專長的熟練、應用程度",
+            "tag": []
+          },
+          {
+            "name": "產品測試",
+            "desc": "",
+            "tag": ["軟體程式設計", "資料庫程式設計","DNS", "TCP/IP"]
+          }
+        ]
+      }
+    },
+    "resumeTimestamp": 1614094970,
+    "resumeHash": "qoznne"
+  }
+}

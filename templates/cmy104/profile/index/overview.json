@@ -1,0 +1,165 @@
+{
+  "jsonInputField": {
+    "resume": {
+      "count": 7,
+      "name": {
+        "field": "履歷名稱",
+        "maxLength": 20,
+        "regex": "^[^`><;#@\\!\\”\\‘?~%*^\\${}=<>\\\\|‵＜＞；＃＠！“？～％＄＊︿｛｝＝＼]+$"
+      }
+    }
+  },
+  "jsonOptionsInfo": {
+    "optionsResumeType": [
+      { "text": "一般履歷", "value": 1 },
+      { "text": "簡歷", "value": 2 }
+    ],
+    "optionsInsertType": [{ "text": "空白履歷", "value": 1 }],
+    "optionsPublicStatus": [
+      { "text": "未完成", "value": 0 },
+      { "text": "關閉", "value": 1 },
+      { "text": "開放", "value": 2 },
+      { "text": "部分開放", "value": 6 }
+    ],
+    "optionsJobCat": [
+      [
+        {
+          "text": "IC佈局工程師",
+          "value": 2008001022,
+          "class": 0
+        },
+        {
+          "text": "半導體工程師",
+          "value": 2008001016,
+          "class": 0
+        },
+        {
+          "text": "數位IC設計工程師",
+          "value": 2008001015,
+          "class": 0
+        },
+        {
+          "text": "類比IC設計工程師",
+          "value": 2008001014,
+          "class": 0
+        },
+        {
+          "text": "半導體設備工程師",
+          "value": 2009002007,
+          "class": 0
+        },
+        {
+          "text": "半導體製程工程師",
+          "value": 2009002005,
+          "class": 0
+        }
+      ],
+      [
+        {
+          "text": "餐飲服務生",
+          "value": 2006001001,
+          "class": 1
+        },
+        {
+          "text": "餐廚助手",
+          "value": 2006001008,
+          "class": 1
+        },
+        {
+          "text": "調酒師／吧台人員",
+          "value": 2006001007,
+          "class": 1
+        },
+        {
+          "text": "飯店工作人員",
+          "value": 2006002003,
+          "class": 1
+        }
+      ],
+      [
+        {
+          "text": "門市／店員／專櫃人員",
+          "value": 2005002004,
+          "class": 2
+        },
+        {
+          "text": "售票／收銀人員",
+          "value": 2005002005,
+          "class": 2
+        },
+        {
+          "text": "行政助理",
+          "value": 2002001012,
+          "class": 2
+        },
+        {
+          "text": "工讀生",
+          "value": 2002001011,
+          "class": 2
+        }
+      ],
+      [
+        {
+          "text": "外務／快遞／送貨",
+          "value": 2011002003,
+          "class": 3
+        },
+        {
+          "text": "作業員／包裝員",
+          "value": 2010001002,
+          "class": 3
+        },
+        {
+          "text": "加油員",
+          "value": 2018002010,
+          "class": 3
+        }
+      ]
+    ]
+  },
+  "jsonResume": {
+    "formData": {
+      "overview": [
+        {
+          "versionNo": "75s35q5en",
+          "title": "第四份履歷",
+          "coverImg": "/profile/images/background_img?vno=75s35q5en",
+          "type": {
+            "text": "一般履歷",
+            "value": 1
+          },
+          "lastModified": 1611049229,
+          "publicStatus": {
+            "text": "已開放",
+            "value": 2
+          },
+          "isCompleted": true,
+          "isPublic": false,
+          "resumeHash": "qn6djh"
+        },
+        {
+          "versionNo": "75s3523io",
+          "title": "第五份履歷",
+          "coverImg": "",
+          "type": {
+            "text": "一般履歷",
+            "value": 1
+          },
+          "lastModified": 1611049229,
+          "publicStatus": {
+            "text": "關閉",
+            "value": 1
+          },
+          "isCompleted": true,
+          "isPublic": false,
+          "resumeHash": "qn6djh"
+        }
+      ]
+    }
+  },
+  "jsonPersonalInfo": {
+    "publicStatus": { "text": "部分開放", "value": 6 },
+    "resumeSwitchUrl": "/profile/set"
+  },
+  "isControlGroup": false
+}

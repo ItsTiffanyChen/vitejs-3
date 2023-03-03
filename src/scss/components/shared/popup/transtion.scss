@@ -1,0 +1,28 @@
+.popupShow-enter,
+.popupShow-leave-to {
+  opacity: 0;
+
+  .popup-box {
+    transform: translateY(-15%) translateZ(0);
+  }
+}
+
+.popupShow-enter-active,
+.popupShow-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+
+  .popup-box {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+}
+
+.popupShow-leave-active {
+  .popup-box {
+    transition-timing-function: ease;
+  }
+}
+

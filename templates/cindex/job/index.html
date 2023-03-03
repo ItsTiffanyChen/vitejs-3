@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%=
+    _.template(require("html-loader!../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs)
+    %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%=
+    _.template(require("html-loader!../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs)
+    %> <%=
+    _.template(require("html-loader!../../../templates/include/head/global-black-bar.html"))(htmlWebpackPlugin.options.envs)
+    %>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NTGHHLR");
+    </script>
+  </head>
+  <body>
+    <%=
+    _.template(require("html-loader!../../../templates/include/html/noscript.html"))()
+    %> <%=
+    _.template(require("html-loader!../../../templates/include/html/global-black-bar.html"))()
+    %>
+    <div id="app"></div>
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %> <%
+    for (var css in htmlWebpackPlugin.files.css) { %>
+    <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet" />
+    <% } %> <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+    <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+    <% } %> <% } %>
+    <script
+      type="text/javascript"
+      src="<%= VUE_APP_ADSMART_COMPONENT %>js/channel.js"
+    ></script>
+  </body>
+</html>

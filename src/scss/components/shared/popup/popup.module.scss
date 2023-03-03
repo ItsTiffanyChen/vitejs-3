@@ -1,0 +1,90 @@
+/*! purgecss start ignore */
+@import "~scss/variables";
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 16px;
+  @include media-breakpoint-up(md) {
+    padding: 24px;
+  }
+
+  &Backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(black, 0.3);
+  }
+
+  &Box {
+    position: relative;
+    background-color: white;
+    padding: 24px 24px 32px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px $gray-700;
+    min-width: 296px;
+    // max-width: 720px;
+    width: 100%;
+    // @include media-breakpoint-up(md) {
+    //   padding: 24px 24px;
+    // }
+  }
+
+  &Wrapper {
+    display: block;
+    // overflow: hidden;
+    // flex-direction: column;
+    height: 100%;
+    // min-height: 200px;
+  }
+
+  &Header {
+    font-size: $font-medium;
+    font-weight: bold;
+    // padding-bottom: 24px;
+  }
+
+  &Body {
+    position: relative;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+    // margin-bottom: 12px;
+    // @include media-breakpoint-down(sm) {
+    //   margin-bottom: 0;
+    // }
+    .popup-body-inner {
+      min-height: 101%;
+    }
+  }
+
+  &IconClick{
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: $gray-700;
+    z-index: 10;
+
+    i {
+      font-size: $font-small;
+    }
+  }
+
+  &Footer{
+
+  }
+}
+
+/*! purgecss end ignore */

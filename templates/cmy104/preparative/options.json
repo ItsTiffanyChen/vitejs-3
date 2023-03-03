@@ -1,0 +1,22 @@
+{
+  "optionsSex":[
+    {
+      "text":"女",
+      "value":0
+    },
+    {
+      "text":"男",
+      "value":1
+    }
+   ],
+   "optionsIdentityType":[
+    {
+      "text":"身分證字號",
+      "value":0
+    },
+    {
+      "text":"護照號碼",
+      "value":1
+    }
+  ]
+}

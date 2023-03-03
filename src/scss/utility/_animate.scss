@@ -1,0 +1,78 @@
+.animate-underline-enter-active,
+.animate-underline-leave-active {
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.animate-underline-enter-to {
+  left: 0%;
+  right: 0%;
+}
+
+.animate-underline-enter {
+  left: 0%;
+  right: 100%;
+}
+
+.animate-underline-leave-to {
+  left: 100%;
+  right: 0%;
+}
+
+.animate-underline-leave {
+  left: 0%;
+  right: 100%;
+}
+
+// .animate-underline-enter-to,
+// .animate-underline-leave {
+//   width: 100%;
+// }
+
+// .animate-underline-enter,
+// .animate-underline-leave-to {
+//   width: 0%;
+// }
+
+.animate-slide-enter-active {
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.animate-slide-leave-active {
+  transition-duration: 0.1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.animate-slide-enter-to,
+.animate-slide-leave {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.animate-slide-enter,
+.animate-slide-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
+
+
+.animate-fade-enter-active {
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+}
+
+.animate-fade-leave-active {
+  transition-duration: 0.1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.animate-fade-enter-to,
+.animate-fade-leave {
+  opacity: 1;
+}
+
+.animate-fade-enter,
+.animate-fade-leave-to {
+  opacity: 0;
+}

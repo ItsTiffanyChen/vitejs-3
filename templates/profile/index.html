@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <%= _.template(require("html-loader!../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%= _.template(require("html-loader!../../templates/profile/_meta.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/category-picker.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+    <script
+      type="text/javascript"
+      src="<%= VUE_APP_HEYBAR_URL %>js/heybar.js"
+    ></script>
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WJ3343X");
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WJ3343X"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
+    ></script>
+    <%= _.template(require("html-loader!../../templates/include/html/noscript.html"))() %>
+    <div id="app"></div>
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet" />
+      <% } %>
+      <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+        <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+      <% } %>
+    <% } %>
+  </body>
+</html>

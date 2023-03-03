@@ -1,0 +1,9 @@
+// $app-min-width: 960px + (12px * 2);
+$app-main-width: 740px;
+$app-main-width-lg: 980px;
+$app-main-width-xl: 1080px;
+$app-sidebar-width: 220px + $grid-gutter-width;
+$app-sidebar-width-lg: 220px + $grid-gutter-width;
+$app-sidebar-width-xl: 240px + $grid-gutter-width;
+$input-transition: background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;

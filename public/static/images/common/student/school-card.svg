@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="92" viewBox="0 0 192 92">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="-31.306%" y2="108.359%">
+            <stop offset="0%" stop-color="#EAF5FF"/>
+            <stop offset="100%" stop-color="#39C8D0"/>
+        </linearGradient>
+        <rect id="prefix__a" width="192" height="92" x="0" y="0" rx="4"/>
+        <path id="prefix__d" d="M0 0.804H66V59.804H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="191" height="91" x=".5" y=".5" stroke="#EEE" rx="4"/>
+        <g opacity=".35">
+            <mask id="prefix__c" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <use fill="url(#prefix__b)" opacity=".497" xlink:href="#prefix__a"/>
+            <g mask="url(#prefix__c)">
+                <g transform="rotate(179 43.203 64.092)">
+                    <mask id="prefix__e" fill="#fff">
+                        <use xlink:href="#prefix__d"/>
+                    </mask>
+                    <path stroke="#39C8D0" stroke-width="4" d="M36.623 55.65c19.742-1.88 24.195-19.729 25.293-35.964 1.097-16.234-8.622-30.882-22.599-30.882S6 7.837 6 24.848C6 41.86 16.881 57.531 36.623 55.65z" mask="url(#prefix__e)"/>
+                </g>
+            </g>
+            <path fill="#39C8D0" d="M32.39 16.95c6.698-.618 8.209-6.479 8.581-11.81C41.344-.19 38.046-5 33.304-5S22 1.25 22 6.835c0 5.586 3.692 10.732 10.39 10.115z" mask="url(#prefix__c)" opacity=".8" transform="rotate(-90 31.5 6)"/>
+            <g fill="#39C8D0" mask="url(#prefix__c)">
+                <g transform="matrix(0 1 1 0 142.5 5.5)">
+                    <circle cx="2" cy="15" r="2"/>
+                    <circle cx="15" cy="15" r="2"/>
+                    <circle cx="29" cy="15" r="2"/>
+                    <circle cx="2" cy="29" r="2"/>
+                    <circle cx="15" cy="29" r="2"/>
+                    <circle cx="29" cy="29" r="2"/>
+                    <circle cx="2" cy="42" r="2"/>
+                    <circle cx="15" cy="42" r="2"/>
+                    <circle cx="29" cy="42" r="2"/>
+                    <circle cx="42" cy="15" r="2"/>
+                    <circle cx="42" cy="29" r="2"/>
+                    <circle cx="42" cy="42" r="2"/>
+                    <circle cx="69" cy="42" r="2"/>
+                    <circle cx="56" cy="29" r="2"/>
+                    <circle cx="56" cy="42" r="2"/>
+                    <circle cx="29" cy="2" r="2"/>
+                    <circle cx="15" cy="2" r="2"/>
+                    <circle cx="2" cy="2" r="2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

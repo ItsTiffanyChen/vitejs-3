@@ -1,0 +1,9 @@
+<% if (VUE_APP_ENV !== 'development') { %>
+  <script src="https:<%= VUE_APP_STATIC_URL %>104main/libs/mit/vue/2.6.12/vue.min.js"></script>
+<% } else { %>
+  <script
+    src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"
+    integrity="sha384-ma9ivURrHX5VOB4tNq+UiGNkJoANH4EAJmhxd1mmDq0gKOv88wkKZOfRDOpXynwh"
+    crossorigin="anonymous"
+  ></script>
+<% } %>

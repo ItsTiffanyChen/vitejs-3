@@ -1,0 +1,13 @@
+{
+  "build:component": "vite build --target wc-async 'src/components/view/*.vue'",
+  "build:lab": "yarn build:cmy104-lab; yarn build:cindex-lab; yarn build:common-lab;", // 確定一下 dist 會不會被蓋掉
+  "build:preview": "yarn build:cmy104-lab --preview; yarn build:common-lab;",
+  "build:production": "yarn build:cindex-production; yarn build:cmy104-production; yarn build:common-production;",
+  "build:staging": "yarn build:cindex-staging; yarn build:cmy104-staging; yarn build:common-staging;",
+  "build:static-assets": "gulp buildStaticAssets",
+  "nyc:test:e2e-headless": "nyc --silent vue-cli-service test:e2e --mode e2e --headless",
+  "storybook:build": "vue-cli-service --mode lab storybook:build -c config/storybook --storybook",
+  "storybook:serve": "vue-cli-service --mode development storybook:serve -p 6006 -c config/storybook -s public",
+  "test": "yarn test:unit",
+  "test:e2e-headless": "vue-cli-service test:e2e --mode e2e --headless"
+}

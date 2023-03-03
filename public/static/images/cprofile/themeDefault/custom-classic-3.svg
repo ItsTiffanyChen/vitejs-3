@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301" height="169" viewBox="0 0 301 169">
+    <defs>
+        <rect id="a" width="301" height="169" y="7" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -7)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g fill="#92CF53" mask="url(#b)">
+            <path d="M0 7h301v169H0z" opacity=".7"/>
+            <path d="M169 231c72.902 0 132-59.098 132-132S241.902-33 169-33" opacity=".602"/>
+        </g>
+        <path fill="#EBEBEB" d="M0-25h169v132H0z" mask="url(#b)" opacity=".398"/>
+        <path fill="#EBEBEB" d="M169-25h169v132H169z" mask="url(#b)" opacity=".204"/>
+        <circle cx="245" cy="73" r="8" fill="#6FB827" mask="url(#b)"/>
+        <circle cx="211.5" cy="53.5" r="3.5" fill="#FFF" mask="url(#b)" opacity=".5"/>
+        <path fill="#92CF53" d="M103 149.5c5.523 0 10-4.03 10-9s-4.477-9-10-9" mask="url(#b)"/>
+        <g stroke="#6FB827" stroke-linecap="round" mask="url(#b)">
+            <path d="M51 51c6.197 0 6.197 4 12.394 4 6.2 0 6.2-4 12.401-4 6.197 0 6.197 4 12.396 4 6.2 0 6.2-4 12.405-4 6.2 0 6.2 4 12.404 4M51 57c6.197 0 6.197 4 12.394 4 6.2 0 6.2-4 12.401-4 6.197 0 6.197 4 12.396 4 6.2 0 6.2-4 12.405-4 6.2 0 6.2 4 12.404 4M51 63c6.197 0 6.197 4 12.394 4 6.2 0 6.2-4 12.401-4 6.197 0 6.197 4 12.396 4 6.2 0 6.2-4 12.405-4 6.2 0 6.2 4 12.404 4"/>
+        </g>
+    </g>
+</svg>

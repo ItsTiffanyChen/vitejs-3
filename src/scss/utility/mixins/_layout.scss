@@ -1,0 +1,76 @@
+@mixin set-full-page($id, $hasGlobalbar: true) {
+  html,
+  body {
+    height: 100%;
+  }
+
+  #{$id} {
+    min-height: 100%;
+    min-width: auto;
+    position: relative;
+    overflow-anchor: none;
+    @include media-breakpoint-up(md) {
+      @if ($hasGlobalbar) {
+        padding-top: 30px;
+        margin-top: -30px;
+      }
+    }
+  }
+}
+
+@mixin set-globalbar-hide-on-mobile() {
+  /* mobile 不需要黑bar */
+  #globalbar {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+}
+
+@mixin set-footer-absolute-bottom() {
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@mixin set-line-clamp($h,$line) {
+  max-height: ($h) + px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+@mixin set-sidebar-container-full-width() {
+  /deep/ {
+    .container {
+      @include media-breakpoint-down(sm) {
+        min-width: 100%;
+      }
+
+      &-sidebar--rwd {
+        &.container-sidebar--keep {
+          .col.main {
+            z-index: 0;
+            @include media-breakpoint-down(sm) {
+              padding-left: 0;
+              padding-right: 0;
+              padding-top: 0;
+            }
+          }
+
+          .col-auto.sidebar {
+            z-index: 0;
+            @include media-breakpoint-down(sm) {
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

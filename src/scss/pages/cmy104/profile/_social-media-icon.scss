@@ -1,0 +1,38 @@
+// @mixin social-media-icon {
+  .social-media-icon{
+    &.jb_icon_blogger{
+      color: #f39736;
+    }
+    &.jb_icon_copylink{
+      color: #39c8d0;
+    }
+    &.jb_icon_medium{
+      color: #292929;
+    }
+    &.jb_icon_fb{
+      color: #667eb9;
+    }
+    &.jb_icon_instegream{
+      color: #de5785;
+    }
+    &.jb_icon_youtube{
+      color: #f75858;
+    }
+    &.jb_icon_linkeden{
+      color: #4295c0;
+    }
+    &.jb_icon_github{
+      color: #333333;
+    }
+    &.jb_icon_stackoverflow{
+      color: #f19246;
+    }
+    &.jb_icon_dribbble{
+      color: #e85e93;
+    }
+    &.jb_icon_behance{
+      color: #4081f8;
+    }
+  }
+
+// }

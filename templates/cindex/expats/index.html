@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%= _.template(require("html-loader!../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+  <title><%= htmlWebpackPlugin.options.title%></title>
+  <%= _.template(require("html-loader!../../../templates/include/head/category-picker.html"))(htmlWebpackPlugin.options.envs) %>
+  <%= _.template(require("html-loader!../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+  <%= _.template(require("html-loader!../../../templates/include/head/global-black-bar.html"))(htmlWebpackPlugin.options.envs) %>
+  <script>
+    var PAGEVARS = {
+      "jsonArea": [
+          {
+              "text": "Taipei City",
+              "value": 6001001000
+          },
+          {
+              "text": "New Taipei City",
+              "value": 6001002000
+          },
+          {
+              "text": "Taoyuan City",
+              "value": 6001005000
+          },
+          {
+              "text": "Taichung City",
+              "value": 6001008000
+          },
+          {
+              "text": "Tainan City",
+              "value": 6001014000
+          },
+          {
+              "text": "Kaohsiung City",
+              "value": 6001016000
+          },
+          {
+              "text": "Keelung City",
+              "value": 6001004000
+          },
+          {
+              "text": "Hsinchu City",
+              "value": 6001006001
+          },
+          {
+              "text": "Chiayi City",
+              "value": 6001013001
+          },
+          {
+              "text": "Hsinchu County",
+              "value": 6001006000
+          },
+          {
+              "text": "Miaoli County ",
+              "value": 6001007000
+          },
+          {
+              "text": "Changhua County",
+              "value": 6001010000
+          },
+          {
+              "text": "Nantou County",
+              "value": 6001011000
+          },
+          {
+              "text": "Yunlin County",
+              "value": 6001012000
+          },
+          {
+              "text": "Chiayi County",
+              "value": 6001013000
+          },
+          {
+              "text": "Pingtung County",
+              "value": 6001018000
+          },
+          {
+              "text": "Yilan County ",
+              "value": 6001003000
+          },
+          {
+              "text": "Hualien County",
+              "value": 6001020000
+          },
+          {
+              "text": "Taitung County",
+              "value": 6001019000
+          },
+          {
+              "text": "Peng Hu County",
+              "value": 6001021000
+          },
+          {
+              "text": "Jin Men County",
+              "value": 6001022000
+          },
+          {
+              "text": "Lian Jiang County",
+              "value": 6001023000
+          }
+      ]
+    }
+    </script>
+</head>
+<body>
+<%= _.template(require("html-loader!../../../templates/include/html/noscript.html"))() %>
+<%= _.template(require("html-loader!../../../templates/include/html/global-black-bar.html"))() %>
+<div id="app"></div>
+<% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+<% for (var css in htmlWebpackPlugin.files.css) { %>
+<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+<% } %>
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+<script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+<% } %>
+<% } %>
+<script
+  type="text/javascript"
+  src="<%= VUE_APP_ADSMART_COMPONENT %>js/channel.js"
+></script>
+
+</body>
+</html>

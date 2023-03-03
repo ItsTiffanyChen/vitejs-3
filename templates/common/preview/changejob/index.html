@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= _.template(require("html-loader!../../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%= _.template(require("html-loader!../../../../templates/include/head/elog.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../../templates/include/head/category-picker.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../../templates/include/head/vue.html"))(htmlWebpackPlugin.options.envs) %>
+  </head>
+  <body>
+    <script>
+      /*
+        後端 PAGEVAR previewType
+        - 熱門關鍵字預覽 previewType="keywords"
+        - 找工作/找公司主題按鈕預覽 previewType="topicBtns"
+      */
+      var PAGEVARS = {
+        previewType: "keywords"
+      };
+      window.PAGEVARS =PAGEVARS;
+    </script>
+    <%= _.template(require("html-loader!../../../../templates/include/html/noscript.html"))() %>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+      <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+      <% } %>
+      <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+      <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+      <% } %>
+    <% } %>
+    <style>
+      #app-footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </body>
+</html>

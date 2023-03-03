@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504" height="428" viewBox="0 0 504 428">
+    <defs>
+        <rect id="a" width="504" height="428" rx="4"/>
+        <rect id="c" width="1016" height="231" rx="4"/>
+        <rect id="e" width="1016" height="231" rx="4"/>
+        <linearGradient id="g" x1="50%" x2="50%" y1="0%" y2="93.001%">
+            <stop offset="0%" stop-color="#00AFB8" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#00AFB8"/>
+        </linearGradient>
+        <linearGradient id="h" x1="48.722%" x2="50%" y1="15.854%" y2="100%">
+            <stop offset="0%" stop-color="#FFEEDF" stop-opacity=".977"/>
+            <stop offset="100%" stop-color="#FFEEDF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="i" x1="50%" x2="50%" y1="0%" y2="99.802%">
+            <stop offset="0%" stop-color="#00AFB8" stop-opacity=".2"/>
+            <stop offset="100%" stop-color="#00AFB8" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <use fill="#FFF" xlink:href="#c"/>
+            <g mask="url(#d)">
+                <g transform="translate(-403.129 -252.175)">
+                    <rect width="1016" height="231" x="403.129" y="252.175" fill="#39C8D0" fill-opacity=".4" rx="4"/>
+                    <path fill="#FFF" fill-opacity=".5" d="M657.129 369.6h127v127.05h-127z"/>
+                    <path fill="#FFF" d="M530.129 369.6h127v127.05h-127z" opacity=".38"/>
+                    <path fill="#FFF" d="M403.129 242.55h127V369.6h-127z" opacity=".334"/>
+                    <path fill="#00AFB8" fill-opacity=".4" d="M403.129 242.55h127V369.6h-127z" opacity=".85"/>
+                    <path fill="#FFF" d="M784.129 369.6h127v113.575h-127z" opacity=".5"/>
+                    <path fill="#39C8D0" d="M657.129 252.175h127V369.6h-127z" opacity=".5"/>
+                    <g transform="translate(278.053 102.025)">
+                        <path fill="#FFF" d="M506.076 267.786V138.6c-70.14 0-127 59.018-127 129.186h127z" opacity=".6"/>
+                        <ellipse cx="125.076" cy="140.525" fill="#FFF" fill-opacity=".2" rx="104.871" ry="104.912"/>
+                        <ellipse cx="334.818" cy="190.575" fill="#00AFB8" rx="6.735" ry="6.737"/>
+                        <ellipse cx="296.333" cy="226.188" fill="#39C8D0" fill-opacity=".8" rx="13.47" ry="13.475"/>
+                        <ellipse cx="444.019" cy="304.631" fill="#00AFB8" opacity=".5" rx="8.178" ry="8.181"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g mask="url(#b)">
+            <g transform="translate(-508 231)">
+                <mask id="f" fill="#fff">
+                    <use xlink:href="#e"/>
+                </mask>
+                <use fill="#FFF" xlink:href="#e"/>
+                <g mask="url(#f)">
+                    <g transform="translate(-403.129 -252.175)">
+                        <rect width="1016" height="231" x="403.129" y="252.175" fill="#39C8D0" fill-opacity=".4" rx="4"/>
+                        <path fill="url(#g)" d="M127 0h190.5v254.1H127z" opacity=".2" transform="translate(911.129 242.55)"/>
+                        <path fill="#FFF" d="M1038.129 496.65h-127V369.6" opacity=".543"/>
+                        <path fill="#FFF" d="M1038.129 433.125h-63.5V369.6M911.129 242.55h127V369.6h-127z" opacity=".543"/>
+                        <g transform="translate(278.053 102.025)">
+                            <ellipse cx="950.576" cy="190.575" fill="#FFF" opacity=".6" rx="190.5" ry="190.575"/>
+                            <path fill="url(#h)" d="M950.576 381.15c105.21 0 190.5-85.323 190.5-190.575S1055.786 0 950.576 0" opacity=".07" transform="matrix(1 0 0 -1 0 381.15)"/>
+                            <path fill="url(#i)" d="M950.576 381.15c0-105.252-85.29-190.575-190.5-190.575v190.327l190.5.248z" transform="rotate(180 855.326 285.863)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

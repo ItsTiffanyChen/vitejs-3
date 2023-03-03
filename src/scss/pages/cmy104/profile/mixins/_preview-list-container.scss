@@ -1,0 +1,60 @@
+@mixin btn-panel-style($element-class) {
+  &__btn-panel {
+    opacity: 1;
+    @include media-breakpoint-up(md) {
+      opacity: 0;
+    }
+
+    .btn {
+      cursor: pointer;
+
+      &[disabled] {
+        cursor: not-allowed;
+      }
+    }
+
+    .btn--drag {
+      cursor: grab;
+
+      &:active {
+        cursor: grabbing;
+      }
+    }
+  }
+  @include media-breakpoint-up(md) {
+    &:hover {
+      .#{$element-class}__btn-panel {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@mixin list-container-style($element-class) {
+  position: relative;
+  border-top: 1px transparent solid;
+  transition: background-color 0.15s ease-in-out, border-top 0.15s ease-in-out;
+
+  &:hover {
+    border-top: 1px $primary solid;
+    background-color: rgba($orange, .6);
+
+    .#{$element-class}__btn-panel {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin list-container-dragging-style($element-class) {
+  .#{$element-class}__list-container {
+    &:hover {
+      background-color: transparent;
+      border-top: 1px transparent solid;
+    }
+
+    &.sortable-ghost {
+      opacity: 0.4;
+    }
+  }
+
+}

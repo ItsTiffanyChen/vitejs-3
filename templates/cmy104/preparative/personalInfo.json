@@ -1,0 +1,113 @@
+{
+	"activate": {
+		"familyName": "陳",
+		"firstName": "穎穎",
+		"identity": "B217996088",
+		"birthYear": "2007",
+		"birthMonth": "",
+		"birthDate": "",
+		"sex": {
+			"text": "女",
+			"value": 0
+		},
+		"cellphone": "0912345678",
+		"email": "chen@104.com.tw",
+		"password": "q123456",
+		"edm": true
+	},
+	"info": {
+		"city": {
+			"des": "台北市中正區",
+			"no": 6001001001
+		},
+		"street": "寶中路1巷1弄1號",
+		"jobStatus": {
+			"text": "在職中",
+			"value": 1
+		},
+		"military": {
+			"text": "免役",
+			"value": 5
+		},
+		"honoraryDischargeYear": 2011,
+		"honoraryDischargeMonth": 2,
+		"driveCert": [
+			{
+				"text": "輕型機車駕照",
+				"value": 1
+			}
+		],
+		"bio": "個人簡介內容"
+	},
+	"education": {
+		"name": "一零四大學",
+		"highest": {
+			"text": "博士",
+			"value": 1
+		},
+		"departments": [
+			{
+				"name": "化工1",
+				"type": [{
+					"no": 3016002000,
+					"des": "餐旅服務相關"
+				}]
+			}
+		],
+		"duration": {
+			"startYear": 2001,
+			"startMonth": 9,
+			"endYear": 2003,
+			"endMonth": 9
+		},
+		"status": {
+			"text": "就學中",
+			"value": 3
+		}
+	},
+	"experience": {
+		"companyName": "104公司",
+		"workArea": {
+			"no": 6001018001,
+			"des": "屏東縣屏東市"
+		},
+		"jobName": "104職務",
+		"duration": {
+			"startYear": 2011,
+			"startMonth": 1,
+			"endYear": 2013,
+			"endMonth": 2
+		}
+	},
+	"jobCondition": {
+		"jobTimePeriod": [
+			{
+				"text": "日班",
+				"value": 1
+			}
+		],
+		"onBoardDate": {
+			"text": "錄取後",
+			"value": "1"
+		},
+		"onBoardAfterGetOffer": {
+			"text": "一週",
+			"value": 1
+		},
+		"customOnBoardDate": {
+			"year": "",
+			"month": null,
+			"date": null
+		},
+		"preferArea": [
+			{
+				"no": 6001001000,
+				"des": "台北市"
+			}
+		],
+		"preferJobTitle": "希望職類內容",
+		"preferJobContent": "工作描述"
+	},
+  "returnUrl": "https://kad.events.104.com.tw",
+  "referer": "https:\/\/test-app-104.herokuapp.com\/"
+}

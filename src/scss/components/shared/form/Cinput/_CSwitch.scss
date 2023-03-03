@@ -1,0 +1,95 @@
+@import "~scss/variables";
+$switch-width: 48px;
+$switch-height: 24px;
+$switch-circle-width: 18px;
+$switch-gap: 2px;
+
+.jb-switch {
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  width: $switch-width;
+  height: $switch-height;
+  // cursor: pointer;
+  * {
+    vertical-align: middle;
+  }
+
+  .switch {
+    width: $switch-width;
+    height: $switch-height;
+    border: 1px solid $gray-600;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.15s all ease-in-out;
+    border-radius: $switch-height;
+    background-color: $gray-600;
+
+    &::before {
+      position: absolute;
+      top: $switch-gap;
+      left: $switch-gap;
+      box-sizing: content-box;
+      width: $switch-circle-width;
+      height: $switch-circle-width;
+      content: "";
+      // border: 1px solid #fff;
+      background-color: $white;
+      border-radius: $switch-circle-width;
+      transition: 0.15s all ease-in-out;
+    }
+  }
+
+  input {
+    &[type="checkbox"] {
+      visibility: hidden;
+      appearance: none;
+      outline: 0;
+
+      ~ * {
+        cursor: pointer;
+      }
+
+      &:checked {
+        ~ .switch {
+          background-color: $secondary;
+          border: 1px solid $secondary;
+
+          &::before {
+            left: 100%;
+            margin-left: -($switch-circle-width + $switch-gap);
+          }
+        }
+      }
+
+      &[disabled] {
+        ~ .switch {
+          background-color: $gray-400;
+          border: 1px solid $gray-500;
+
+          &::before{
+            background-color: $gray-500;
+          }
+        }
+
+        &:checked{
+          ~ .switch {
+            background-color: #ffeedf;
+            border: 1px solid #ffd6b2;
+
+            &::before{
+              background-color: #ffd6b2;
+            }
+          }
+        }
+
+
+
+        ~ * {
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}

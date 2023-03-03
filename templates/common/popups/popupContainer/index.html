@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= _.template(require("html-loader!../../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%= _.template(require("html-loader!../../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../../templates/include/head/vue.html"))(htmlWebpackPlugin.options.envs) %>
+  </head>
+  <body>
+    <script>
+      var PAGEVARS = {
+
+      };
+      var popupConfig = {
+        config: {
+          size: "small",
+          headerContent:"將此頁設為你的104首頁",
+          bodyContent: "將學生專區設為首頁，可以看到更多元的兼職資訊呦 (☞ﾟ∀ﾟ)☞",
+          confirmBtnContent: "設為首頁",
+          cancelBtnContent: "恢復為預設",
+          additionalCheckboxContent: "不要問"
+        },
+        events:{
+          cancelBtnFunc: function(isAdditionalCheckboxChecked) {
+            console.log('456 and isAdditionalCheckboxChecked', isAdditionalCheckboxChecked)
+          },
+          confirmBtnFunc: function(isAdditionalCheckboxChecked) {
+            console.log('123 and isAdditionalCheckboxChecked', isAdditionalCheckboxChecked)
+          }
+        }
+      }
+    </script>
+    <%= _.template(require("html-loader!../../../../templates/include/html/noscript.html"))() %>
+    <div id="popupContainer"></div>
+    <button onclick="popupContainer.toggle()">toggle</button>
+    <!-- built files will be auto injected -->
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+      <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+      <% } %>
+      <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+      <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+      <% } %>
+    <% } %>
+    <script>
+    </script>
+  </body>
+</html>

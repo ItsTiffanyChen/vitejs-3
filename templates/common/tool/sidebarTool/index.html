@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= _.template(require("html-loader!../../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%= _.template(require("html-loader!../../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../../templates/include/head/vue.html"))(htmlWebpackPlugin.options.envs) %>
+    <style>
+      body {
+        background: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var sidebarToolConfig = {
+        width: 123,
+        title: "123",
+        slogan: "123",
+        imgRoute: "",
+        errorImgRoute: "",
+        buttonText: "test123",
+        buttonLink: "https://google.com.tw",
+      }
+    </script>
+    <%= _.template(require("html-loader!../../../../templates/include/html/noscript.html"))() %>
+    <div id="sidebar-tool"></div>
+    <!-- built files will be auto injected -->
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+      <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+      <% } %>
+      <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+      <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+      <% } %>
+    <% } %>
+    <script>
+      var initFilter = {
+        "firstCustNo":'130000000079009',
+        query: {
+          jobcat: "2002001001,2003001001",
+          keyword: '人資',
+          jobsource: "test"
+        },
+        "queryDesc": {
+          "jobcat": "人力資源類人員、經營／幕僚類人員",
+          "area": "新北市、宜蘭縣"
+        },
+        "filterDesc": {
+          "jobcat": [],
+          "indcat": [],
+          "area": [
+            {
+              "no": 6001001001,
+              "des": "台北市中正區"
+            }
+          ],
+          "dep": [],
+          "excludeIndustryCat": [],
+          "excludeCompanyByCustno": [],
+          "recommendIndcat": [
+            {
+              "no": "1001000000",
+              "des": "電子資訊／軟體／半導體相關業"
+            },
+            {
+              "no": "1002000000",
+              "des": "一般製造業"
+            },
+            {
+              "no": "1003000000",
+              "des": "批發／零售／傳直銷業"
+            },
+            {
+              "no": "1001001000",
+              "des": "軟體及網路相關業"
+            },
+            {
+              "no": "1007000000",
+              "des": "旅遊／休閒／運動業"
+            }
+          ],
+          "indArea": []
+        },
+      }
+    </script>
+  </body>
+</html>

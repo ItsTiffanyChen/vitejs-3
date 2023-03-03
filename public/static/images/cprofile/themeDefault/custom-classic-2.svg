@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301" height="169" viewBox="0 0 301 169">
+    <defs>
+        <rect id="a" width="301" height="169" y="7" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -7)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <path fill="#79D9DF" d="M0 7h301v169H0z" opacity=".8"/>
+            <path fill="#FFF" d="M132 73h169v132H132z" opacity=".389"/>
+            <path fill="#39C8D0" d="M132-59h169V73H132z" opacity=".098"/>
+            <path fill="#39C8D0" d="M132-59.2V73.019c72.902 0 132-59.099 132-132L132-59.2z" opacity=".6"/>
+        </g>
+        <path fill="#FFF" d="M132 176H0V44" opacity=".3"/>
+        <path fill="#FFF" d="M132 110H66V44" opacity=".3"/>
+        <circle cx="265" cy="43" r="10" fill="#39C8D0"/>
+        <path stroke="#39C8D0" stroke-width="2" d="M253.34 138.35l-15.899-7.085 2.281 15.99 13.619-8.905z"/>
+        <circle cx="188" cy="109" r="5" fill="#1654B9" fill-opacity=".7"/>
+    </g>
+</svg>

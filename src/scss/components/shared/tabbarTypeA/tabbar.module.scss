@@ -1,0 +1,48 @@
+/*! purgecss start ignore */
+@import "~scss/variables";
+
+.tabbarLayout {
+  overflow: hidden;
+}
+
+.tabLayout{
+  font-weight: $font-weight-bold;
+  text-align: center;
+  cursor: pointer;
+  transition-property: border;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  position: relative;
+
+  &::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    background-color: transparent;
+  }
+
+  &:hover,
+  &.active {
+    color: $primary !important;
+
+    &::after{
+      background-color: $primary;
+    }
+  }
+
+  &.disable {
+    color: $gray-600 !important;
+    cursor: auto;
+
+    &:hover {
+      color: $gray-600;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+/*! purgecss end ignore */

@@ -1,0 +1,48 @@
+.col {
+  // rwd: 針對「選單式輸入-單選」 Cinput/Select.vue span.text-region 的調整
+  &.col-4, &.col-6, &.col-8 {
+    /deep/ .text-region,
+    /deep/ .form-element-tag span.text-truncate
+    {
+      width: 100%;
+    }
+  }
+  // &.col-4 {
+  //   /deep/ .text-region,
+  //   /deep/ .form-element-tag span.text-truncate
+  //   {
+  //     width: 56px;
+  //   }
+  // }
+  // &.col-6 {
+  //   /deep/ .text-region,
+  //   /deep/ .form-element-tag span.text-truncate
+  //   {
+  //     width: 96px;
+  //   }
+  // }
+  // &.col-8 {
+  //   /deep/ .text-region,
+  //   /deep/ .form-element-tag span.text-truncate
+  //   {
+  //     width: 116px;
+  //   }
+  // }
+
+  // 順序重要，這要在下方
+  &.col-4,
+  &.col-6,
+  &.col-8 {
+    /deep/ .text-region,
+    /deep/ .form-element-tag span.text-truncate
+    {
+      overflow: hidden;
+      text-overflow : ellipsis;
+      white-space : nowrap;
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+    }
+  }
+
+}

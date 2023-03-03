@@ -1,0 +1,19 @@
+{
+  "familyName": "陳",
+  "firstName": "里昂",
+  "cellphone": "0912345678",
+  "rename": true,
+  "identity":false,
+  "birthYear": "2000",
+  "birthMonth": {
+    "text": 3,
+    "value": 3
+  },
+  "birthDate": {
+    "text": 3,
+    "value": 3
+  },
+  "sex": "",
+  "vip": false,
+  "tanjiv": false
+}

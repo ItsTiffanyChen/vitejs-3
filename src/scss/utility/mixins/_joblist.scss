@@ -1,0 +1,28 @@
+/*
+  @see https://app.zeplin.io/project/5ba09e058fbb9968d2167fed/screen/5e60836919829e12444df207
+  @description joblist header, container 左右間距，請遵守規範
+ */
+@mixin joblist-container-padding-x($rwd: false) {
+  @if $rwd == true {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @include media-breakpoint-up(md) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  } @else {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}

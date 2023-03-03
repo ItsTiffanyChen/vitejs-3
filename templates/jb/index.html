@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= _.template(require("html-loader!../../../templates/include/head/utility.html"))(htmlWebpackPlugin.options.envs) %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <%= _.template(require("html-loader!../../../templates/include/head/elog.html"))(htmlWebpackPlugin.options.envs) %>
+    <%= _.template(require("html-loader!../../../templates/include/head/designer-icons.html"))(htmlWebpackPlugin.options.envs) %>
+  </head>
+  <body>
+    <%= _.template(require("html-loader!../../../templates/include/html/noscript.html"))() %>
+    <div id="<%=htmlWebpackPlugin.options.appName %>">
+      <div class="container bg-blue-lake">
+        <div class="row">
+          <div class="col-6 py-3">
+            <div class="bg-tertiary py-3">
+              <buttin class="btn btn-secondary btn-sm btn-has-icon">
+                <i class="jb_icon_favor_filled mr-3"></i>
+                <span>搜尋</span>
+              </buttin>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="bg-tertiary py-3">
+              <button class="btn btn-secondary btn-sm">
+                <span>搜尋</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container jb-container bg-blue-lake">
+        <div class="row">
+          <div class="col-6 py-3">
+            <div class="bg-tertiary py-3">
+              <buttin class="btn btn-secondary btn-sm btn-has-icon">
+                <i class="jb_icon_favor_filled mr-3"></i>
+                <span>搜尋</span>
+              </buttin>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="bg-tertiary py-3">
+              <button class="btn btn-secondary btn-sm">
+                <span>搜尋</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid bg-blue-lake">
+        <div class="row">
+          <div class="col-6 py-3"><div class="bg-tertiary py-3">a</div></div>
+          <div class="col-6 py-3"><div class="bg-tertiary py-3">b</div></div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid jb-container-fluid bg-blue-lake">
+        <div class="row">
+          <div class="col-6 py-3"><div class="bg-tertiary py-3">a</div></div>
+          <div class="col-6 py-3"><div class="bg-tertiary py-3">b</div></div>
+        </div>
+      </div>
+    </div>
+    <% if(htmlWebpackPlugin.options.envs.VUE_APP_ENV != 'development') { %>
+      <% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link href="/dist<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+      <% } %>
+    <% } %>
+  </body>
+</html>

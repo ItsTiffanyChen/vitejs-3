@@ -1,0 +1,32 @@
+{
+  "name": "王大明",
+  "identityNumber": "A123456789",
+  "birthDate": "1987-08-07",
+  "submissionDate": "2022-10-10 18:10:10",
+  "representativeCountChoice": 2,
+  "representatives": [
+    {
+      "relationship": 1,
+      "name": "AAA",
+      "phoneNumber": "0987654321",
+      "nationality": 1,
+      "identity": {
+        "idNumber": "A123456789",
+        "issueYear": "2087",
+        "issueMonth": "08",
+        "issueDay": "07",
+        "issuePlace": "10001",
+        "issueType": 1
+      }
+    },
+    {
+      "relationship": 2,
+      "name": "AAA",
+      "phoneNumber": "0987654321",
+      "nationality": 2,
+      "identity": {
+        "document": "base64"
+      }
+    }
+  ]
+}

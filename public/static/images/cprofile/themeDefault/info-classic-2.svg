@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1056" height="240" viewBox="0 0 1056 240">
+    <defs>
+        <rect id="a" width="1056" height="240" rx="4"/>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="93.001%">
+            <stop offset="0%" stop-color="#00AFB8" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#00AFB8"/>
+        </linearGradient>
+        <linearGradient id="d" x1="48.721%" x2="50%" y1="15.854%" y2="100%">
+            <stop offset="0%" stop-color="#FFEEDF" stop-opacity=".977"/>
+            <stop offset="100%" stop-color="#FFEEDF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="99.802%">
+            <stop offset="0%" stop-color="#00AFB8" stop-opacity=".2"/>
+            <stop offset="100%" stop-color="#00AFB8" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g transform="translate(-419 -262)">
+                <rect width="1056" height="240" x="419" y="262" fill="#39C8D0" fill-opacity=".4" rx="4"/>
+                <path fill="#FFF" fill-opacity=".5" d="M683 384h132v132H683z"/>
+                <path fill="#FFF" d="M551 384h132v132H551z" opacity=".38"/>
+                <path fill="#FFF" d="M419 252h132v132H419z" opacity=".334"/>
+                <path fill="#00AFB8" fill-opacity=".4" d="M419 252h132v132H419z" opacity=".85"/>
+                <path fill="#FFF" d="M815 384h132v118H815z" opacity=".5"/>
+                <path fill="#39C8D0" d="M683 262h132v122H683z" opacity=".5"/>
+                <g>
+                    <path fill="url(#c)" d="M132 0h198v264H132z" opacity=".2" transform="translate(947 252)"/>
+                    <path fill="#FFF" d="M1079 516H947V384" opacity=".543"/>
+                    <path fill="#FFF" d="M1079 450h-66v-66M947 252h132v132H947z" opacity=".543"/>
+                </g>
+                <g transform="translate(289 106)">
+                    <circle cx="988" cy="198" r="198" fill="#FFF" opacity=".6"/>
+                    <path fill="#FFF" d="M526 278.219V144c-72.902 0-132 61.317-132 134.219h132z" opacity=".6"/>
+                    <circle cx="130" cy="146" r="109" fill="#FFF" fill-opacity=".2"/>
+                    <path fill="url(#d)" d="M988 396c109.352 0 198-88.648 198-198S1097.352 0 988 0" opacity=".07" transform="matrix(1 0 0 -1 0 396)"/>
+                    <path fill="url(#e)" d="M988 396c0-109.352-88.648-198-198-198v197.742L988 396z" transform="rotate(180 889 297)"/>
+                    <circle cx="348" cy="198" r="7" fill="#00AFB8"/>
+                    <circle cx="308" cy="235" r="14" fill="#39C8D0" fill-opacity=".8"/>
+                    <circle cx="461.5" cy="316.5" r="8.5" fill="#00AFB8" opacity=".5"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

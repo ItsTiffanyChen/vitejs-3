@@ -1,0 +1,531 @@
+{
+  "viewData": {
+    "resume": {
+      "name": "第四份履歷",
+      "publicStatus": {
+          "text": "關閉中",
+          "value": 1
+      },
+      "resumeType": {
+          "text": "簡歷",
+          "value": 2
+      }
+    },
+    "ACData": {
+      "info": {
+          "name": "孫藝珍",
+          "email": "tingru01@104.com.tw",
+          "gender": {
+            "text": "女",
+            "value": 0
+          },
+          "birthYear": 2004,
+          "birthMonth": null,
+          "birthDate": null,
+          "age": 16,
+          "cellphone": "0912345678423",
+          "city": [
+            {
+                "des": "貝里斯",
+                "no": 6006001001
+            }
+          ],
+          "street": "羅斯福路五段245號17樓之7"
+      }
+    },
+    "info": {
+      "viewData": {
+          "themeChoose": {
+            "selectedTheme": {
+                "text": "極簡主義",
+                "value": 2,
+                "name": "InfoThemeSimple"
+            },
+            "top": []
+          },
+          "info": {
+            "jobStatus": {},
+            "birthYear": "2004",
+            "birthMonth": null,
+            "birthDate": null,
+            "age": 16,
+            "military": {},
+            "honoraryDischargeYear": "",
+            "honoraryDischargeMonth": {},
+            "cellphone": "0912345678423",
+            "city": [
+                {
+                  "des": "貝里斯",
+                  "no": 6006001001
+                }
+            ],
+            "street": "羅斯福***",
+            "bio": "",
+            "trait": [],
+            "personalLink1Type": null,
+            "personalLink1Url": "",
+            "personalLink2Type": null,
+            "personalLink2Url": "",
+            "personalLink3Type": null,
+            "personalLink3Url": "",
+            "personalImageUrl": "/profile/avatar",
+            "personalCoverUrl": "/profile/images/background_img?vno=75wg538vu",
+            "showPersonalLink": null
+          },
+          "addOn": {
+            "englishName": "",
+            "subCellphone": "",
+            "telArea": "",
+            "tel": "",
+            "contact": "",
+            "driveCert": [
+                {
+                  "text": "大型重型機車駕照",
+                  "value": 4
+                },
+                {
+                  "text": "普通小型車駕照",
+                  "value": 8
+                }
+            ],
+            "trafficTool": [],
+            "height": "",
+            "weight": "",
+            "marriageStatus": {},
+            "specialRole": [],
+            "dis1Type": null,
+            "dis1Level": null,
+            "dis2Type": null,
+            "dis2Level": null,
+            "dis3Type": null,
+            "dis3Level": null,
+            "disManual": null,
+            "disTool": null,
+            "disDesc": null
+          }
+      }
+    },
+    "sidebar": [
+      {
+          "id": "info",
+          "progress": 100
+      },
+      {
+          "id": "education",
+          "progress": 100
+      },
+      {
+          "id": "experience",
+          "progress": 0
+      },
+      {
+          "id": "jobCondition",
+          "progress": 100
+      },
+      {
+        "id": "custom1"
+      },
+      {
+        "id": "custom2"
+      },
+      {
+        "id": "custom3"
+      }
+    ],
+    "education": {
+      "viewData": {
+          "educations": [
+            {
+                "schoolId": null,
+                "name": "Universidad de La Habana",
+                "departments": [
+                  {
+                      "name": "uh;",
+                      "type": []
+                  }
+                ],
+                "highest": {
+                  "text": "碩士",
+                  "value": 2
+                },
+                "duration": {
+                  "startYear": null,
+                  "startMonth": null,
+                  "endYear": null,
+                  "endMonth": null
+                },
+                "status": {
+                  "text": "肄業",
+                  "value": 2
+                },
+                "inSchoolStatus": {},
+                "region": {
+                  "text": "國外",
+                  "value": 2
+                },
+                "foreign": [],
+                "sort": 1
+            }
+          ]
+      }
+    },
+    "experience": {
+      "viewData": {
+          "experiences": [
+            {
+               "companyName": "ghj",
+               "custNo": 0,
+               "invoice": 0,
+               "logo": "",
+               "industry": [],
+               "companyScale": "",
+               "jobName": "gjgh",
+               "workArea": [],
+               "jobType": {
+                  "text": "全職",
+                  "value": 1
+               },
+               "jobCat": [],
+               "duration": {
+                  "startYear": "2000",
+                  "startMonth": {
+                     "text": 3,
+                     "value": 3
+                  },
+                  "endYear": "2000",
+                  "endMonth": {
+                     "text": 5,
+                     "value": 5
+                  }
+               },
+               "description": "",
+               "skill": [],
+               "management": "",
+               "salary": {
+                  "monthPay": "",
+                  "yearPay": "",
+                  "jobParttimeType": {},
+                  "jobParttimePay": ""
+               },
+               "companyVisibility": true,
+               "stillWork": false,
+               "salaryVisibility": false,
+               "sort": 1
+            },
+            {
+               "companyName": "ry",
+               "custNo": 0,
+               "invoice": 0,
+               "logo": "",
+               "industry": [],
+               "companyScale": "",
+               "jobName": "tery",
+               "workArea": [],
+               "jobType": {
+                  "text": "全職",
+                  "value": 1
+               },
+               "jobCat": [],
+               "duration": {
+                  "startYear": "",
+                  "startMonth": [],
+                  "endYear": "",
+                  "endMonth": []
+               },
+               "description": "",
+               "skill": [],
+               "management": "",
+               "salary": {
+                  "monthPay": "",
+                  "yearPay": "",
+                  "jobParttimeType": {},
+                  "jobParttimePay": ""
+               },
+               "companyVisibility": true,
+               "stillWork": false,
+               "salaryVisibility": false,
+               "sort": 2
+            }
+         ]
+      }
+    },
+    "jobCondition": {
+      "viewData": {
+          "jobCondition": {
+            "jobTimeType": [
+              {
+                "text": "全職工作",
+                "value": 1
+              }
+            ],
+            "jobWillType": [],
+            "jobTimePeriod": [
+              {
+                "text": "晚班",
+                "value": 2
+              }
+            ],
+            "otherTimePeriod": "",
+            "workShift": 0,
+            "onBoardDate": {},
+            "onBoardAfterGetOffer": null,
+            "customOnBoardDate": {
+              "year": "",
+              "month": null,
+              "date": null
+            },
+            "salary": {
+              "text": "面議"
+            },
+            "salaryPeriod": {
+              "text": "月薪",
+              "value": 5
+            },
+            "salaryOfHours": "",
+            "salaryOfMonth": {
+              "unitOfTenThousand": null,
+              "unitOfThousand": null
+            },
+            "salariesOfYear": null,
+            "preferArea": [],
+            "preferJobTitle": "",
+            "preferJobType": [
+              {
+                "no": 2006001001,
+                "des": "餐飲服務生"
+              }
+            ],
+            "preferJobIndustry": [],
+            "preferJobContent": ""
+          }
+      }
+    },
+    "project": {
+      "viewData": {
+        "projects": [
+          {
+            "name": "XYZ類商品頁改版",
+            "duration": {
+              "startYear": "2017",
+              "startMonth": {
+                "text": 11,
+                "value": 11
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": 6,
+                "value": 6
+              }
+            },
+            "isInProgress": [],
+            "introduce": "．成效：商品頁轉換率成長21%，業績成長4.3%\n．擔任專案PM，帶領設計、前後端工程、QA共7人一起完成專案\n．專案主要內容：\n    1. 商品頁改版\n    2. 強化放大商品特色\n    3. 商品組合規劃\n    4. 個人化商品推薦\n\n註：專案內容多屬公司機密，僅截取重要資訊",
+            "url": "",
+            "img": {
+              "pic": "1",
+              "fileId": "achievement_img1",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/achievement_img1.jpeg"
+            },
+            "sort": 1
+          },
+          {
+            "name": "商品後台改版",
+            "duration": {
+              "startYear": "2018",
+              "startMonth": {
+                "text": 7,
+                "value": 7
+              },
+              "endYear": "2018",
+              "endMonth": {
+                "text": 9,
+                "value": 9
+              }
+            },
+            "isInProgress": [],
+            "introduce": "．成果：為後台最高客戶滿意度的專案\n．擔任專案PM，帶領設計、前後端工程、QA共6人一起完成專案\n．專案主要內容：\n    1. 商品設定頁增加手機版設定\n    2. 增加商品數據\n    3. 增加造訪用戶分析\n\n註：專案內容多屬公司機密，僅截取重要資訊",
+            "url": "",
+            "img": {
+              "pic": "1",
+              "fileId": "achievement_img2",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/achievement_img2.jpeg"
+            },
+            "sort": 2
+          }
+        ]
+      }
+    },
+    "portfolio": {
+      "viewData": {
+        "portfolios": [
+          {
+            "name": "測試作品專案",
+            "attach" : {
+              "auth": true,
+              "fileId": "upload1",
+              "name": "deerMessage.pdf",
+              "src": "base64...",
+              "status": 2,
+              "token": "jwtToken...",
+              "url": "https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 1
+          },
+          {
+            "name": "AAA市場分析",
+            "attach": {
+              "name": "AAA市場分析.pptx",
+              "status": 2,
+              "url": "",
+              "fileId": "upload5",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/portfolio2.jpeg"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 2
+          },
+          {
+            "name": "GTM分享",
+            "attach": {
+              "name": "GTM分享.pdf",
+              "status": 2,
+              "url": "",
+              "fileId": "upload6",
+              "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/portfolio3.jpeg"
+            },
+            "attachType": {
+              "text": "檔案",
+              "value": 1
+            },
+            "sort": 3
+          },
+          {
+            "name": "facebook網站",
+            "attach": {
+              "name": "www.facebook.com",
+              "status": 0,
+              "url": "https://www.facebook.com",
+              "fileId": "",
+              "src": "",
+              "crawler": true
+            },
+            "attachType": { "text": "連結", "value": 2 },
+            "sort": 4
+          }
+        ]
+      }
+    },
+    "custom1": {
+      "viewData": {
+        "custom": {
+          "name": "旅遊影像記錄",
+          "duration": {
+            "startYear": "",
+            "startMonth": {},
+            "endYear": "",
+            "endMonth": {}
+          },
+          "isInProgress": [],
+          "introduce": "世界是一本書，不旅行的人只讀一頁。\n擔任PM、企劃工作，除了平常要吸收科技知識，接觸不同的文化事物，也能增進自己的感知能力。\n每隔一段時間，我會安排國外旅遊，一方面舒解專案的壓力，另一方面也增進視野。\n隨著vlog的興盛，自己也學習將旅遊記錄轉成影像。\n學習一塊東西不難，但做到好的確有技巧及要下功夫。",
+          "url": "https://www.104.com.tw",
+          "sort": 1
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "大型橫幅",
+            "value": 2,
+            "name": "CustomThemeBanner"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img1",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img1.jpeg"
+          }
+        }
+      }
+    },
+    "custom2": {
+      "viewData": {
+        "custom": {
+          "name": "駭客松佳作 - 清冰箱",
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": 9,
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": 9,
+              "value": 9
+            }
+          },
+          "isInProgress": [],
+          "introduce": "進ABC公司的第一年，公司舉辦駭客松比賽，雖那時是工程，但平常就喜歡創意發想，也累積不少鬼點子，得知有駭客松比賽，立刻揪同事組團參加。短時間內要設定主題、評估方案、凝聚共識、規劃DEMO...，很不容易。\n\n公司共27組參賽，很慶幸我們拿到佳作，對我們這群剛進公司的天兵天團來說，算是不小的肯定。\n\n現在回想，比賽只是一時，更寶貴的是有機會學習從市場、商業的角度評估產品價值，是往PM發展的一個啟發。",
+          "url": "https://www.104.com.tw",
+          "sort": 2
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "經典風格",
+            "value": 1,
+            "name": "CustomThemeClassic"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img2",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img2.jpeg"
+          }
+        }
+      }
+    },
+    "custom3": {
+      "viewData": {
+        "custom": {
+          "name": "駭客松佳作 - 清冰箱",
+          "duration": {
+            "startYear": "2014",
+            "startMonth": {
+              "text": 9,
+              "value": 9
+            },
+            "endYear": "2014",
+            "endMonth": {
+              "text": 9,
+              "value": 9
+            }
+          },
+          "isInProgress": [],
+          "introduce": "進ABC公司的第一年，公司舉辦駭客松比賽，雖那時是工程，但平常就喜歡創意發想，也累積不少鬼點子，得知有駭客松比賽，立刻揪同事組團參加。短時間內要設定主題、評估方案、凝聚共識、規劃DEMO...，很不容易。\n\n公司共27組參賽，很慶幸我們拿到佳作，對我們這群剛進公司的天兵天團來說，算是不小的肯定。\n\n現在回想，比賽只是一時，更寶貴的是有機會學習從市場、商業的角度評估產品價值，是往PM發展的一個啟發。",
+          "url": "https://www.104.com.tw",
+          "sort": 2
+        },
+        "themeChoose": {
+          "selectedTheme": {
+            "text": "純文字",
+            "value": 3,
+            "name": "CustomThemeText"
+          }
+        },
+        "backgroundUpload": {
+          "img": {
+            "pic": "1",
+            "fileId": "custom_content_img2",
+            "src": "https://cdn.104-dev.com.tw/static/images/cprofile/example/salaryman/custom_content_img2.jpeg"
+          }
+        }
+      }
+    },
+    "resumeTimestamp": 1614094970,
+    "resumeHash": "qoznne"
+  }
+}
